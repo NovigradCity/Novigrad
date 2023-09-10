@@ -1,0 +1,41 @@
+{
+  "items": [
+    {
+      "name": "Дуб",
+      "category": "wood",
+      "amount": 1000,
+      "price": 1,
+      "buy": 0.9,
+      "minPercent": 20,
+      "steep": 1000,
+      "isBuy": true,
+      "isSell": true
+    },
+    {
+      "name": "Ель",
+      "category": "wood",
+      "amount": 5000,
+      "price": 1,
+      "buy": 0.9,
+      "min-percent": 20,
+      "steep": 1000,
+      "isBuy": true,
+      "isSell": true
+    },
+    {
+      "name": "Медь",
+      "category": "ingot",
+      "amount": 500,
+      "price": 45,
+      "buy": 35,
+      "min-percent": 20,
+      "steep": 100,
+      "isBuy": true,
+      "isSell": true
+    }
+  ],
+  "categories": {
+    "wood": "Дерево",
+    "ingot": "Слитки"
+  }
+}
