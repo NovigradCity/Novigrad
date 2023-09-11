@@ -193,18 +193,6 @@
       "icon": "/assets/TFCTexture/log/sycamore.png"
     },
     {
-      "name": "Платан",
-      "category": "wood",
-      "amount": "500+",
-      "price": 0,
-      "buy": 0,
-      "min-percent": 20,
-      "steep": 1000,
-      "isBuy": false,
-      "isSell": false,
-      "icon": "/assets/TFCTexture/log/sycamore.png"
-    },
-    {
       "name": "Сейба (иконка)",
       "category": "wood",
       "amount": "500+",

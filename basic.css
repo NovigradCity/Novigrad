@@ -2,6 +2,8 @@ body{
     background-attachment: fixed;
     background-image: url(./assets/bg.png);
     overflow-y: scroll;
+    background-size: cover;
+    background-position: center;
 }
 
 .backdrop{
@@ -26,4 +28,32 @@ table{
 
 .nav-link.active{
     color: black!important;
+}
+
+.text-rang-1{
+    color: #259925;
+}
+
+.text-rang-2{
+    color: #009999;
+}
+
+.text-rang-3{
+    color: #0070C0;
+}
+
+.text-rang-4{
+    color: #CC00FF;
+}
+
+.text-rang-5{
+    color: #d38f14;
+}
+
+.text-rang-6{
+    color: #FF6600;
+}
+
+.text-rang-7{
+    color: #db0011;
 }
