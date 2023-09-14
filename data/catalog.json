@@ -459,18 +459,6 @@
       "icon": "/assets/ingot/blue_steel.png"
     },
     {
-      "name": "Синяя сталь",
-      "category": "ingot",
-      "amount": "0",
-      "price": 0,
-      "buy": 0,
-      "min-percent": 20,
-      "steep": 100,
-      "isBuy": false,
-      "isSell": false,
-      "icon": "/assets/ingot/blue_steel.png"
-    },
-    {
       "name": "Золото",
       "category": "ore",
       "amount": "-",
