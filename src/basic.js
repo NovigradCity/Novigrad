@@ -3,7 +3,7 @@ const dqs = (selector) => {
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
-    let data = await fetch('./data/catalog.json');
+    let data = await fetch('./data/catalog.json', {cache: "no-store"});
     data = await data.json();
     console.log(data);
 
@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let tr = document.createElement('tr');
         tr.innerHTML = `
         <th scope="col">#</th>
+        <th>Иконка</th>
         <th scope="col">Наименование</th>
         <th scope="col">Покупка</th>
         <th scope="col">Продажа</th>
@@ -63,7 +64,8 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         tr.innerHTML = `
         <td class="value">${counter}</td>
-        <td class="value">${rowIco} ${row.name}</td>
+        <td style="width: 90px;">${rowIco}</td>
+        <td class="value">${row.name}</td>
         <td class="${isBuy} value">${row.buy}</td>
         <td class="${isSell} value">${row.price}</td>
         <td class="value">${row.amount}</td>
@@ -72,7 +74,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         counter++;
     }
 
-    data = await fetch('./data/VonderanShop.json');
+    data = await fetch('./data/VonderanShop.json', {cache: "no-store"});
     data = await data.json();
     console.log(data);
 
@@ -96,6 +98,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let tr = document.createElement('tr');
         tr.innerHTML = `
         <th scope="col">#</th>
+        <th>Иконка</th>
         <th scope="col">Наименование</th>
         <th scope="col">Цена</th>
         `;
@@ -124,7 +127,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         }
         tr.innerHTML = `
         <td style="width: 100px;" class="value">${counter}</td>
-        <td class="value">${rowIco} ${row.name}</td>
+        <td style="width: 90px;">${rowIco}</td>
+        <td class="value">${row.name}</td>
         <td style="width: 100px;" class="value text-success">${row.price}</td>
         `
         dqs('#' + row.category).append(tr);

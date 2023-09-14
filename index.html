@@ -17,7 +17,9 @@
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
 </head>
+
 <body>
+
 <div class="container border backdrop p-0 container-sm container-md" style="min-height: 100vh;">
     <nav>
         <div class="nav nav-tabs" id="nav-tab" role="tablist">
@@ -196,7 +198,9 @@
             </div>
         </div>
         <div class="tab-pane fade" id="nav-screens" role="tabpanel" aria-labelledby="nav-screens-tab">
+            <div id="cityScreens" class="p-3">
 
+            </div>
         </div>
         <div class="tab-pane fade" id="nav-VonderanShop" role="tabpanel" aria-labelledby="nav-screens-tab">
             <div id="vShop" class="p-3 text-white">
@@ -206,3 +210,24 @@
 </div>
 </body>
 </html>
+
+<script defer>
+    fetch('./data/screens.json', {cache: "no-store"})
+        .then(data => data.json())
+        .then(data => {
+            let last = data[data.length - 1];
+            document.querySelector('body').style.backgroundImage = "url(.." + last + ")";
+
+            let divScreens = document.querySelector('#cityScreens');
+            data.forEach((screen, i) => {
+                //if(i<data.length) {
+                let img = document.createElement('img');
+                img.src = screen;
+                img.style.maxWidth = '100%';
+                img.style.marginBottom = '10px';
+                img.alt = 'Изображение города';
+                divScreens.append(img);
+                //}
+            })
+        })
+</script>
