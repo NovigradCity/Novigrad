@@ -57,11 +57,38 @@
         <div class="tab-pane fade" id="nav-calc" style="overflow-y: auto" role="tabpanel"
              aria-labelledby="nav-calc-tab">
             <div id="tradeCalcContainer" class="p-3 text-white">
-                <h3>Закупочный калькулятор</h3>
-
+                <h3><a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseCalc" role="button"
+                       aria-expanded="false">
+                    Закупочный калькулятор
+                </a></h3>
+                <div class="collapse" id="collapseCalc">
+                    <div class="card card-body text-black" style="max-width: 500px">
+                        <span>Я</span>
+                        <select class="form-control"  id="tradeSelectType">
+                            <option value="sell">Покупаю</option>
+                            <option value="buy">Продаю</option>
+                        </select>
+                        <span>Категория</span>
+                        <select onchange="selectCategory(this)" class="form-control" id="tradeSelectCategory">
+                            <option selected value="-1" disabled>Выберете категорию</option>
+                        </select>
+                        <span>Товар</span>
+                        <select class="form-control" id="tradeSelectItem">
+                            <option value="-1" disabled>Выберете товар</option>
+                        </select>
+                        <span>Кол-во</span>
+                        <input id="tradeAmount" min="0" onchange="calcTrade()" class="form-control" type="number">
+                        <span>Итог: </span><span></span>
+                    </div>
+                </div>
             </div>
 
-            <div id="trade" class="p-3 text-white"></div>
+            <div id="trade" class="p-3 text-white">
+                <ul class="nav nav-tabs" id="tradeTabs" role="tradeTabsContainer">
+                </ul>
+                <div class="tab-content" id="tradeTabsContainer">
+                </div>
+            </div>
         </div>
         <div class="tab-pane fade" style="overflow-y: auto" id="nav-tituls" role="tabpanel"
              aria-labelledby="nav-tituls-tab">
@@ -204,6 +231,10 @@
         </div>
         <div class="tab-pane fade" id="nav-VonderanShop" role="tabpanel" aria-labelledby="nav-screens-tab">
             <div id="vShop" class="p-3 text-white">
+                <ul class="nav nav-tabs" id="vShopTabs" role="vShopTabsContainer">
+                </ul>
+                <div class="tab-content" id="vShopTabsContainer">
+                </div>
             </div>
         </div>
     </div>
@@ -217,6 +248,7 @@
         .then(data => {
             let last = data[data.length - 1];
             document.querySelector('body').style.backgroundImage = "url(.." + last + ")";
+            data = data.reverse();
 
             let divScreens = document.querySelector('#cityScreens');
             data.forEach((screen, i) => {
