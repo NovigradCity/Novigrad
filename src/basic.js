@@ -2,27 +2,28 @@ const dqs = (selector) => {
     return document.querySelector(selector);
 }
 
-function selectCategory(event){
-    let val = event.value;
-    let items = document.tradeData.items.filter(e => e.category === val);
-
-    dqs('#tradeSelectItem').innerHTML = '';
-    items.forEach( e => {
-        dqs('#tradeSelectItem').innerHTML += `<option value='${e.name}'>${e.name}</option>`
-    });
-}
-
-function calcTrade(){
-    let amount = dqs('#tradeAmount').value;
-}
-
-document.addEventListener('DOMContentLoaded', async () => {
-    let data = await fetch('./data/catalog.json', {cache: "no-store"});
-    data = await data.json();
-    document.tradeData = data;
-    console.log(data);
+async function drawTables(){
+    let data = null;
+    if(typeof document.tradeData === 'undefined'){
+        data = await fetch('./data/catalog.json', {cache: "no-store"});
+        data = await data.json();
+        document.tradeData = data;
+        console.log(data);
+    }
 
     let trade = dqs('#trade');
+    let isFirst = true;
+
+    let afterDrawActive = null;
+    let afterSelectedCategory = null;
+    if(data === null){
+        data = document.tradeData;
+        afterDrawActive = dqs('#tradeTabs').querySelector('.active').id;
+        dqs('#tradeTabs').innerHTML = '';
+        dqs('#tradeTabsContainer').innerHTML = '';
+        afterSelectedCategory = dqs('#tradeSelectCategory').value;
+        dqs('#tradeSelectCategory').innerHTML = '';
+    }
 
     for(let iKey in data.categories){
         let id = 'tradeTab_' + iKey;
@@ -34,6 +35,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         tabButton.classList.add('value');
         tabButton.classList.add('text-white');
         tabButton.classList.add('rounded-0');
+        if(isFirst){
+            tabButton.classList.add('active');
+            //isFirst = false;
+        }
         tabButton.id = id;
         tabButton.setAttribute('data-bs-toggle', 'tab')
         tabButton.setAttribute('data-bs-target', "#" + id + "Content")
@@ -51,6 +56,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         let block = document.createElement('div');
         block.classList.add('tab-pane');
         block.classList.add('fade');
+        if(isFirst){
+            block.classList.add('active');
+            block.classList.add('show');
+            isFirst = false;
+        }
         block.id = id + "Content";
         block.setAttribute('role', 'tabpanel')
         let title = document.createElement('h3');
@@ -94,40 +104,66 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         let row = data.items[iKey];
         let tr = document.createElement('tr');
-        //tr.style.fontSize = '2em';
-
         let isSell = (row.isSell) ? 'text-success' : 'text-danger';
-        //cellSell.innerHTML = "<span>Продажа: <span><span class='"+isSell+"'>" + row.price + "</span>";
-
         let isBuy = (row.isBuy) ? 'text-success' : 'text-danger';
-        //cellBuy.innerHTML = "<span>Покупка: <span><span class='"+isBuy+"'>" + row.buy + "</span>";
 
         let rowIco = '';
         if(row.icon){
             rowIco = `<img src="${row.icon}" width=24 height=24 alt='${row.name}'>`
         }
 
+        let sell = row.buy;
+        let isLogic = false;
+        let logic = {};
+        if(typeof document.tradeData.categoryPriceLogic[row.category] === 'object'){
+            logic = document.tradeData.categoryPriceLogic[row.category];
+            isLogic = true;
+        }
+        if(row.isBuy && isLogic){
+            if(row.amount > logic.base) {
+                let currentAmm = row.amount;
+                currentAmm = parseInt(currentAmm);
+                let steep = logic.steep;
+                let base = logic.base;
+                let tmpAmm = currentAmm - base;
+                sell = sell - (Math.ceil(tmpAmm / steep) * logic.sell);
+            }
+        }
+
         tr.innerHTML = `
         <td class="value">${counter}</td>
         <td style="width: 90px;">${rowIco}</td>
         <td class="value">${row.name}</td>
-        <td class="${isBuy} value">${row.buy}</td>
-        <td class="${isSell} value">${row.price}</td>
+        <td class="${isBuy} value">${sell}</td>
+        <td class="${isSell} value">${row.sell}</td>
         <td class="value">${row.amount}</td>
         `
         dqs('#' + row.category).append(tr);
         counter++;
     }
 
-    data = await fetch('./data/VonderanShop.json', {cache: "no-store"});
+    if(afterDrawActive){
+        dqs('#' + afterDrawActive).click();
+    }
+    if(afterSelectedCategory){
+        dqs('#tradeSelectCategory').querySelector(`[value='${afterSelectedCategory}']`).setAttribute('selected', true);
+    }
+}
+
+document.addEventListener('DOMContentLoaded', async () => {
+    document.basket = [];
+    document.lastClacItem = {};
+
+    await drawTables();
+
+    let data = await fetch('./data/VonderanShop.json', {cache: "no-store"});
     data = await data.json();
     console.log(data);
 
-    trade = dqs('#vShop');
+    let trade = dqs('#vShop');
+    let isFirst = true;
     for(let iKey in data.categories){
-
         let id = 'tradevShopTab_' + iKey;
-
         let tabHead = document.createElement('li');
         tabHead.classList.add('nav-item');
         tabHead.setAttribute('role', 'presentation');
@@ -136,6 +172,10 @@ document.addEventListener('DOMContentLoaded', async () => {
         tabButton.classList.add('value');
         tabButton.classList.add('text-white');
         tabButton.classList.add('rounded-0');
+        if(isFirst){
+            tabButton.classList.add('active');
+            //isFirst = false;
+        }
         tabButton.id = id;
         tabButton.setAttribute('data-bs-toggle', 'tab')
         tabButton.setAttribute('data-bs-target', "#" + id + "Content")
@@ -148,6 +188,11 @@ document.addEventListener('DOMContentLoaded', async () => {
         let block = document.createElement('div');
         block.classList.add('tab-pane');
         block.classList.add('fade');
+        if(isFirst){
+            block.classList.add('active');
+            block.classList.add('show');
+            isFirst = false;
+        }
         block.id = id + "Content";
         block.setAttribute('role', 'tabpanel')
         let title = document.createElement('h3');

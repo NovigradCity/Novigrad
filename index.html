@@ -62,24 +62,37 @@
                     Закупочный калькулятор
                 </a></h3>
                 <div class="collapse" id="collapseCalc">
-                    <div class="card card-body text-black" style="max-width: 500px">
-                        <span>Я</span>
-                        <select class="form-control"  id="tradeSelectType">
-                            <option value="sell">Покупаю</option>
-                            <option value="buy">Продаю</option>
-                        </select>
-                        <span>Категория</span>
-                        <select onchange="selectCategory(this)" class="form-control" id="tradeSelectCategory">
-                            <option selected value="-1" disabled>Выберете категорию</option>
-                        </select>
-                        <span>Товар</span>
-                        <select class="form-control" id="tradeSelectItem">
-                            <option value="-1" disabled>Выберете товар</option>
-                        </select>
-                        <span>Кол-во</span>
-                        <input id="tradeAmount" min="0" onchange="calcTrade()" class="form-control" type="number">
-                        <span>Итог: </span><span></span>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="card card-body text-black">
+                                <span>Я</span>
+                                <select onchange="selectCategory()" class="form-control" id="tradeSelectType">
+                                    <option value="sell">Покупаю</option>
+                                    <option value="buy">Продаю</option>
+                                </select>
+                                <span>Категория</span>
+                                <select onchange="selectCategory()" class="form-control" id="tradeSelectCategory">
+                                    <option selected value="-1" disabled>Выберете категорию</option>
+                                </select>
+                                <span>Товар</span>
+                                <select class="form-control" id="tradeSelectItem">
+                                    <option value="-1" disabled>Выберете товар</option>
+                                </select>
+                                <span>Кол-во</span>
+                                <input id="tradeAmount" min="0" onchange="calcTrade()" oninput="calcTrade()" class="form-control"
+                                       type="number">
+                                <span>Итог: </span><span id="calcRowTotal"></span>
+                                <button onclick="addToBasket()" class="btn btn-sm btn-success mt-2">Добавить в корзину</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <h3>Корзина</h3>
+                            <div class="card card-body text-black" id="basketList" style="max-height: 328px; min-height: 328px; overflow-y: scroll">
+
+                            </div>
+                        </div>
                     </div>
+
                 </div>
             </div>
 

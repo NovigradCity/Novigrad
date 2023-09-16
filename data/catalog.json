@@ -3,8 +3,8 @@
     {
       "name": "Акация",
       "category": "wood",
-      "amount": "500+",
-      "price": 1.6,
+      "amount": 500,
+      "sell": 1.6,
       "buy": 1.2,
       "minPercent": 20,
       "isBuy": true,
@@ -14,10 +14,10 @@
     {
       "name": "Белый кедр",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.65,
+      "amount": 500,
+      "sell": 0.65,
       "buy": 0.5,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/white_cedar.png"
@@ -25,10 +25,10 @@
     {
       "name": "Берёза",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.65,
+      "amount": 500,
+      "sell": 0.65,
       "buy": 0.5,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/birch.png"
@@ -36,10 +36,10 @@
     {
       "name": "Гевея (иконка)",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/sequoia.png"
@@ -47,10 +47,10 @@
     {
       "name": "Гренадил (иконка)",
       "category": "wood",
-      "amount": "500+",
-      "price": 1.15,
+      "amount": 500,
+      "sell": 1.15,
       "buy": 0.85,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/sequoia.png"
@@ -58,10 +58,10 @@
     {
       "name": "Дуб",
       "category": "wood",
-      "amount": "500+",
-      "price": 1.2,
+      "amount": 500,
+      "sell": 1.2,
       "buy": 0.9,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/oak.png"
@@ -69,10 +69,10 @@
     {
       "name": "Дугласовая пихта",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.8,
+      "amount": 500,
+      "sell": 0.8,
       "buy": 0.6,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/douglas_fir.png"
@@ -80,10 +80,10 @@
     {
       "name": "Ель",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/spruce.png"
@@ -91,10 +91,10 @@
     {
       "name": "Ива",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/willow.png"
@@ -102,10 +102,10 @@
     {
       "name": "Каштан",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.4,
+      "amount": 500,
+      "sell": 0.4,
       "buy": 0.55,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/chestnut.png"
@@ -113,10 +113,10 @@
     {
       "name": "Клён",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.95,
+      "amount": 500,
+      "sell": 0.95,
       "buy": 0.7,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/maple.png"
@@ -124,10 +124,10 @@
     {
       "name": "Орех (иконка?)",
       "category": "wood",
-      "amount": "500+",
-      "price": 2.05,
+      "amount": 500,
+      "sell": 2.05,
       "buy": 1.5,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/chestnut.png"
@@ -135,10 +135,10 @@
     {
       "name": "Осина",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.65,
+      "amount": 500,
+      "sell": 0.65,
       "buy": 0.5,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/aspen.png"
@@ -146,10 +146,10 @@
     {
       "name": "Палисандр",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.8,
+      "amount": 500,
+      "sell": 0.8,
       "buy": 0.6,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/rosewood.png"
@@ -157,10 +157,10 @@
     {
       "name": "Пальма",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/palm.png"
@@ -168,10 +168,10 @@
     {
       "name": "Платан",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/sycamore.png"
@@ -179,10 +179,10 @@
     {
       "name": "Сейба (иконка)",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.55,
+      "amount": 500,
+      "sell": 0.55,
       "buy": 0.4,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/sycamore.png"
@@ -190,10 +190,10 @@
     {
       "name": "Секвойя",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.85,
+      "amount": 500,
+      "sell": 0.85,
       "buy": 0.65,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/sequoia.png"
@@ -201,10 +201,10 @@
     {
       "name": "Сосна",
       "category": "wood",
-      "amount": "500+",
-      "price": 0.4,
+      "amount": 500,
+      "sell": 0.4,
       "buy": 0.55,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/log/pine.png"
@@ -212,10 +212,10 @@
     {
       "name": "Ясень",
       "category": "wood",
-      "amount": "500+",
-      "price": 0,
+      "amount": 500,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/log/ash.png"
@@ -223,11 +223,11 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": "200+",
-      "base": 45,
-      "price": 60,
+      "amount": 200,
+      "baseBuyPrice": 45,
+      "sell": 60,
       "buy": 45,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/gold.png"
@@ -235,11 +235,11 @@
     {
       "name": "Олово",
       "category": "ingot",
-      "amount": "200+",
-      "base": 28,
-      "price": 33,
+      "amount": 200,
+      "baseBuyPrice": 28,
+      "sell": 33,
       "buy": 28,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/tin.png"
@@ -247,11 +247,11 @@
     {
       "name": "Цинк",
       "category": "ingot",
-      "amount": "200+",
-      "base": 27,
-      "price": 32,
+      "amount": 200,
+      "baseBuyPrice": 27,
+      "sell": 32,
       "buy": 27,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/zinc.png"
@@ -259,11 +259,11 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": "200+",
-      "base": 35,
-      "price": 45,
+      "amount": 200,
+      "baseBuyPrice": 35,
+      "sell": 45,
       "buy": 35,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/gold.png"
@@ -271,11 +271,11 @@
     {
       "name": "Висмут",
       "category": "ingot",
-      "amount": "200+",
-      "base": 27,
-      "price": 32,
+      "amount": 200,
+      "baseBuyPrice": 27,
+      "sell": 32,
       "buy": 27,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/bismuth.png"
@@ -283,11 +283,11 @@
     {
       "name": "Никель",
       "category": "ingot",
-      "amount": "200+",
-      "base": 52,
-      "price": 70,
+      "amount": 200,
+      "baseBuyPrice": 52,
+      "sell": 70,
       "buy": 52,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/nickel.png"
@@ -295,11 +295,11 @@
     {
       "name": "Свинец",
       "category": "ingot",
-      "amount": "200+",
-      "base": 75,
-      "price": 100,
+      "amount": 200,
+      "baseBuyPrice": 75,
+      "sell": 100,
       "buy": 75,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/lead.png"
@@ -307,11 +307,11 @@
     {
       "name": "Серебро",
       "category": "ingot",
-      "amount": "200+",
-      "base": 45,
-      "price": 60,
+      "amount": 200,
+      "baseBuyPrice": 45,
+      "sell": 60,
       "buy": 45,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/silver.png"
@@ -319,11 +319,11 @@
     {
       "name": "Платина",
       "category": "ingot",
-      "amount": "200+",
-      "base": 60,
-      "price": 90,
+      "amount": 200,
+      "baseBuyPrice": 60,
+      "sell": 90,
       "buy": 60,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/platinum.png"
@@ -331,11 +331,11 @@
     {
       "name": "Латунь",
       "category": "ingot",
-      "amount": "200+",
-      "base": 47,
-      "price": 60,
+      "amount": 200,
+      "baseBuyPrice": 47,
+      "sell": 60,
       "buy": 47,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/brass.png"
@@ -343,11 +343,11 @@
     {
       "name": "Розовое золото",
       "category": "ingot",
-      "amount": "200+",
-      "base": 63,
-      "price": 75,
+      "amount": 200,
+      "baseBuyPrice": 63,
+      "sell": 75,
       "buy": 63,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/rose_gold.png"
@@ -355,11 +355,11 @@
     {
       "name": "Бронза",
       "category": "ingot",
-      "amount": "200+",
-      "base": 47,
-      "price": 60,
+      "amount": 200,
+      "baseBuyPrice": 47,
+      "sell": 60,
       "buy": 47,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/bronze.png"
@@ -367,11 +367,11 @@
     {
       "name": "Висмут бронза",
       "category": "ingot",
-      "amount": "200+",
-      "base": 40,
-      "price": 52,
+      "amount": 200,
+      "baseBuyPrice": 40,
+      "sell": 52,
       "buy": 40,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/bismuth_bronze.png"
@@ -379,11 +379,11 @@
     {
       "name": "Черная бронза",
       "category": "ingot",
-      "amount": "200+",
-      "base": 53,
-      "price": 65,
+      "amount": 200,
+      "baseBuyPrice": 53,
+      "sell": 65,
       "buy": 53,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/black_bronze.png"
@@ -391,11 +391,11 @@
     {
       "name": "Стерлинг",
       "category": "ingot",
-      "amount": "200+",
-      "base": 55,
-      "price": 68,
+      "amount": 200,
+      "baseBuyPrice": 55,
+      "sell": 68,
       "buy": 55,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/sterling_silver.png"
@@ -403,11 +403,11 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": "200+",
-      "base": 50,
-      "price": 63,
+      "amount": 200,
+      "baseBuyPrice": 50,
+      "sell": 63,
       "buy": 50,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/ingot/wrought_iron.png"
@@ -415,11 +415,11 @@
     {
       "name": "Чугун",
       "category": "ingot",
-      "amount": "0",
-      "base": 0,
-      "price": 0,
+      "amount": 0,
+      "baseBuyPrice": 0,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/ingot/pig_iron.png"
@@ -427,11 +427,11 @@
     {
       "name": "Сталь",
       "category": "ingot",
-      "amount": "0",
-      "base": 0,
-      "price": 0,
+      "amount": 0,
+      "baseBuyPrice": 0,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/ingot/steel.png"
@@ -439,11 +439,11 @@
     {
       "name": "Черная сталь",
       "category": "ingot",
-      "amount": "0",
-      "base": 0,
-      "price": 0,
+      "amount": 0,
+      "baseBuyPrice": 0,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/ingot/black_steel.png"
@@ -451,11 +451,11 @@
     {
       "name": "Красная сталь",
       "category": "ingot",
-      "amount": "0",
-      "base": 0,
-      "price": 0,
+      "amount": 0,
+      "baseBuyPrice": 0,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/ingot/red_steel.png"
@@ -463,10 +463,10 @@
     {
       "name": "Синяя сталь",
       "category": "ingot",
-      "amount": "0",
-      "price": 0,
+      "amount": 0,
+      "sell": 0,
       "buy": 0,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/ingot/blue_steel.png"
@@ -475,9 +475,9 @@
       "name": "Золото",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 13,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/native_gold.png"
@@ -486,9 +486,9 @@
       "name": "Олово",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 20,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/cassiterite.png"
@@ -497,9 +497,9 @@
       "name": "Цинк",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 20,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/sphalerite.png"
@@ -508,9 +508,9 @@
       "name": "Медь",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 13,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/native_copper.png"
@@ -519,9 +519,9 @@
       "name": "Висмут",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 4,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/serpentine.png"
@@ -530,9 +530,9 @@
       "name": "Никель",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 28,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/garnierite.png"
@@ -541,9 +541,9 @@
       "name": "Свинец",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 29,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/galena.png"
@@ -552,9 +552,9 @@
       "name": "Серебро",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 10,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/native_silver.png"
@@ -563,9 +563,9 @@
       "name": "Платина",
       "category": "ore",
       "amount": "-",
-      "price": "-",
+      "sell": "-",
       "buy": 20,
-      "min-percent": 20,
+      "minPercent": 20,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/native_platinum.png"
@@ -584,12 +584,12 @@
     "ingot": {
       "steep": 20,
       "base": 200,
-      "price": -1
+      "sell": 1
     },
     "ore": {
       "steep": 2000,
       "base": 10000,
-      "price": -1
+      "sell": 1
     }
   }
 }
