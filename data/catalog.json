@@ -415,13 +415,13 @@
     {
       "name": "Чугун",
       "category": "ingot",
-      "amount": "0",
-      "base": 0,
-      "price": 0,
-      "buy": 0,
+      "amount": "208",
+      "base": 70,
+      "price": 85,
+      "buy": 65,
       "min-percent": 20,
-      "isBuy": false,
-      "isSell": false,
+      "isBuy": true,
+      "isSell": true,
       "icon": "/assets/ingot/pig_iron.png"
     },
     {
