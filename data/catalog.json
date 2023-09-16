@@ -440,12 +440,12 @@
       "name": "Черная сталь",
       "category": "ingot",
       "amount": "0",
-      "base": 0,
-      "price": 0,
-      "buy": 0,
+      "base": 170,
+      "price": 210,
+      "buy": 170,
       "min-percent": 20,
-      "isBuy": false,
-      "isSell": false,
+      "isBuy": true,
+      "isSell": true,
       "icon": "/assets/ingot/black_steel.png"
     },
     {
