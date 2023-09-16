@@ -432,8 +432,8 @@
       "price": 95,
       "buy": 80,
       "min-percent": 20,
-      "isBuy": false,
-      "isSell": false,
+      "isBuy": true,
+      "isSell": true,
       "icon": "/assets/ingot/steel.png"
     },
     {
