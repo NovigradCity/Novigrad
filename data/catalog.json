@@ -3,7 +3,7 @@
     {
       "name": "Акация",
       "category": "wood",
-      "amount": 500,
+      "amount": 728,
       "sell": 1.6,
       "buy": 1.2,
       "minPercent": 20,
@@ -14,7 +14,7 @@
     {
       "name": "Белый кедр",
       "category": "wood",
-      "amount": 500,
+      "amount": 128,
       "sell": 0.65,
       "buy": 0.5,
       "minPercent": 20,
@@ -25,7 +25,7 @@
     {
       "name": "Берёза",
       "category": "wood",
-      "amount": 500,
+      "amount": 951,
       "sell": 0.65,
       "buy": 0.5,
       "minPercent": 20,
@@ -34,9 +34,9 @@
       "icon": "/assets/TFCTexture/log/birch.png"
     },
     {
-      "name": "Гевея (иконка)",
+      "name": "Гевея",
       "category": "wood",
-      "amount": 500,
+      "amount": 89,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -47,7 +47,7 @@
     {
       "name": "Гренадил",
       "category": "wood",
-      "amount": 500,
+      "amount": 435,
       "sell": 1.15,
       "buy": 0.85,
       "minPercent": 20,
@@ -58,7 +58,7 @@
     {
       "name": "Дуб",
       "category": "wood",
-      "amount": 500,
+      "amount": 856,
       "sell": 1.2,
       "buy": 0.9,
       "minPercent": 20,
@@ -69,7 +69,7 @@
     {
       "name": "Дугласовая пихта",
       "category": "wood",
-      "amount": 500,
+      "amount": 429,
       "sell": 0.8,
       "buy": 0.6,
       "minPercent": 20,
@@ -80,7 +80,7 @@
     {
       "name": "Ель",
       "category": "wood",
-      "amount": 500,
+      "amount": 138,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -91,7 +91,7 @@
     {
       "name": "Ива",
       "category": "wood",
-      "amount": 500,
+      "amount": 0,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -102,7 +102,7 @@
     {
       "name": "Каштан",
       "category": "wood",
-      "amount": 500,
+      "amount": 1189,
       "sell": 0.4,
       "buy": 0.55,
       "minPercent": 20,
@@ -113,7 +113,7 @@
     {
       "name": "Клён",
       "category": "wood",
-      "amount": 500,
+      "amount": 2268,
       "sell": 0.95,
       "buy": 0.7,
       "minPercent": 20,
@@ -124,7 +124,7 @@
     {
       "name": "Орех",
       "category": "wood",
-      "amount": 500,
+      "amount": 514,
       "sell": 2.05,
       "buy": 1.5,
       "minPercent": 20,
@@ -135,7 +135,7 @@
     {
       "name": "Осина",
       "category": "wood",
-      "amount": 500,
+      "amount": 89,
       "sell": 0.65,
       "buy": 0.5,
       "minPercent": 20,
@@ -146,7 +146,7 @@
     {
       "name": "Палисандр",
       "category": "wood",
-      "amount": 500,
+      "amount": 178,
       "sell": 0.8,
       "buy": 0.6,
       "minPercent": 20,
@@ -157,7 +157,7 @@
     {
       "name": "Пальма",
       "category": "wood",
-      "amount": 500,
+      "amount": 34,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -168,7 +168,7 @@
     {
       "name": "Платан",
       "category": "wood",
-      "amount": 500,
+      "amount": 120,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -179,7 +179,7 @@
     {
       "name": "Сейба",
       "category": "wood",
-      "amount": 500,
+      "amount": 6,
       "sell": 0.55,
       "buy": 0.4,
       "minPercent": 20,
@@ -190,7 +190,7 @@
     {
       "name": "Секвойя",
       "category": "wood",
-      "amount": 500,
+      "amount": 188,
       "sell": 0.85,
       "buy": 0.65,
       "minPercent": 20,
@@ -201,7 +201,7 @@
     {
       "name": "Сосна",
       "category": "wood",
-      "amount": 500,
+      "amount": 2199,
       "sell": 0.4,
       "buy": 0.55,
       "minPercent": 20,
@@ -212,7 +212,7 @@
     {
       "name": "Ясень",
       "category": "wood",
-      "amount": 500,
+      "amount": 0,
       "sell": 0,
       "buy": 0,
       "minPercent": 20,
@@ -454,7 +454,7 @@
     {
       "name": "Золото",
       "category": "ore",
-      "amount": "-",
+      "amount": 39400,
       "sell": "-",
       "buy": 13,
       "minPercent": 20,
@@ -465,7 +465,7 @@
     {
       "name": "Олово",
       "category": "ore",
-      "amount": "-",
+      "amount": 0,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -476,7 +476,7 @@
     {
       "name": "Цинк",
       "category": "ore",
-      "amount": "-",
+      "amount": 8500,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -487,7 +487,7 @@
     {
       "name": "Медь",
       "category": "ore",
-      "amount": "-",
+      "amount": 28500,
       "sell": "-",
       "buy": 13,
       "minPercent": 20,
@@ -498,7 +498,7 @@
     {
       "name": "Висмут",
       "category": "ore",
-      "amount": "-",
+      "amount": 29900,
       "sell": "-",
       "buy": 4,
       "minPercent": 20,
@@ -509,7 +509,7 @@
     {
       "name": "Никель",
       "category": "ore",
-      "amount": "-",
+      "amount": 11400,
       "sell": "-",
       "buy": 28,
       "minPercent": 20,
@@ -520,7 +520,7 @@
     {
       "name": "Свинец",
       "category": "ore",
-      "amount": "-",
+      "amount": 9500,
       "sell": "-",
       "buy": 29,
       "minPercent": 20,
@@ -531,7 +531,7 @@
     {
       "name": "Серебро",
       "category": "ore",
-      "amount": "-",
+      "amount": 28800,
       "sell": "-",
       "buy": 10,
       "minPercent": 20,
@@ -542,7 +542,7 @@
     {
       "name": "Платина",
       "category": "ore",
-      "amount": "-",
+      "amount": 0,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
