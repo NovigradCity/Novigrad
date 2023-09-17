@@ -586,7 +586,7 @@
     {
       "name": "Сычуг",
       "category": "other",
-      "amount": 86,
+      "amount": 160,
       "sell": 10,
       "buy": 7,
       "minPercent": 20,
@@ -630,7 +630,7 @@
     {
       "name": "Оливковая паста",
       "category": "other",
-      "amount": 0,
+      "amount": 1370,
       "sell": 0,
       "buy": 2,
       "minPercent": 20,
