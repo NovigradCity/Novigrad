@@ -120,6 +120,7 @@ async function drawTables(){
             isLogic = true;
         }
         if(row.isBuy && isLogic){
+            let minPrice = row.buy / 100 * row.minPercent;
             if(row.amount > logic.base) {
                 let currentAmm = row.amount;
                 currentAmm = parseInt(currentAmm);
@@ -133,6 +134,9 @@ async function drawTables(){
                 }
             } else if (row.amount === logic.base){
                 sell -= logic.sell;
+            }
+            if(sell < minPrice){
+                sell = Math.ceil(minPrice);
             }
         }
 
