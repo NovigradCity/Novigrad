@@ -355,7 +355,7 @@
     {
       "name": "Висмут бронза",
       "category": "ingot",
-      "amount": 30,
+      "amount": 24,
       "buy": 40,
       "sell": 52,
       "minPercent": 20,
@@ -388,7 +388,7 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": 152,
+      "amount": 140,
       "buy": 50,
       "sell": 63,
       "minPercent": 20,
@@ -399,7 +399,7 @@
     {
       "name": "Чугун",
       "category": "ingot",
-      "amount": 61,
+      "amount": 49,
       "buy": 70,
       "sell": 85,
       "minPercent": 20,
