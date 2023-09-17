@@ -175,7 +175,7 @@ function drawBasket() {
     let label = dqs('#basketCompleteLabel');
     basketList.innerHTML += `
         <div class='row p-1'>
-            <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/castle.png" width="24" height="24" alt="Город"></div>
+            <div class="col-1 pe-0 border-end" style="width: 50px;"><img style="margin-left: 8px;" src="/assets/castle.png" width="24" height="24" alt="Город"></div>
             <div class="col-6 border-end">Товар</div>
             <div class="col border-end ps-1 pe-1">Кол-во</div>
             <div class="col border-end ps-1 pe-1">Цена</div>
