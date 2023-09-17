@@ -21,8 +21,8 @@ function selectCategory() {
 function calcTrade() {
     let amount = dqs('#tradeAmount').value;
     amount = parseInt(amount);
-    if(amount > 50000) {
-        amount = 50000;
+    if(amount > 20000) {
+        amount = 20000;
         dqs('#tradeAmount').value = amount;
     }
     if (amount > 0) {
@@ -102,6 +102,7 @@ function calcTrade() {
             dqs('#calcRowTotal').innerText = 0;
         }
     } else {
+        dqs('#tradeAmount').value = 0;
         dqs('#calcRowTotal').innerText = 0;
         document.lastClacItem = {};
     }

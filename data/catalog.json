@@ -694,7 +694,7 @@
       "icon": "/assets/TFCTexture/ore/bituminous_coal.png"
     },
     {
-      "name": "Шкура (Крупная) Alex_IDE",
+      "name": "Шкура (Крупная)",
       "category": "other",
       "amount": 0,
       "sell": 0,
@@ -705,7 +705,7 @@
       "icon": "/assets/TFCTexture/hide(Шкуры)/raw_Big.png"
     },
     {
-      "name": "Шкура (Средняя) Alex_IDE",
+      "name": "Шкура (Средняя)",
       "category": "other",
       "amount": 0,
       "sell": 0,
@@ -716,7 +716,7 @@
       "icon": "/assets/TFCTexture/hide(Шкуры)/raw_Medium.png"
     },
     {
-      "name": "Шкура (Мелкая) Alex_IDE",
+      "name": "Шкура (Мелкая)",
       "category": "other",
       "amount": 0,
       "sell": 0,
