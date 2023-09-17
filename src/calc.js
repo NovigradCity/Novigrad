@@ -125,6 +125,7 @@ function removeFromBasket(index) {
     reCalcBasket();
 
     dqs('#tradeSelectCategory').value = spliced.category;
+    selectCategory();
     dqs('#tradeSelectItem').value = spliced.name;
     dqs('#tradeSelectType').value = spliced.buyType;
     dqs('#tradeAmount').value = spliced.amount;

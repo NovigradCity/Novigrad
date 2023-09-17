@@ -42,10 +42,10 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": false,
-      "icon": "/assets/TFCTexture/log/sequoia.png"
+      "icon": "/assets/TFCTexture/log/hevea.png"
     },
     {
-      "name": "Гренадил (иконка)",
+      "name": "Гренадил",
       "category": "wood",
       "amount": 500,
       "sell": 1.15,
@@ -53,7 +53,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/TFCTexture/log/sequoia.png"
+      "icon": "/assets/TFCTexture/log/blackwood.png"
     },
     {
       "name": "Дуб",
@@ -122,7 +122,7 @@
       "icon": "/assets/TFCTexture/log/maple.png"
     },
     {
-      "name": "Орех (иконка?)",
+      "name": "Орех",
       "category": "wood",
       "amount": 500,
       "sell": 2.05,
@@ -130,7 +130,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/TFCTexture/log/chestnut.png"
+      "icon": "/assets/TFCTexture/log/hickory.png"
     },
     {
       "name": "Осина",
@@ -177,7 +177,7 @@
       "icon": "/assets/TFCTexture/log/sycamore.png"
     },
     {
-      "name": "Сейба (иконка)",
+      "name": "Сейба",
       "category": "wood",
       "amount": 500,
       "sell": 0.55,
@@ -185,7 +185,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/TFCTexture/log/sycamore.png"
+      "icon": "/assets/TFCTexture/log/kapok.png"
     },
     {
       "name": "Секвойя",
@@ -570,7 +570,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/TFCTexture/ore/native_platinum.png"
+      "icon": "/assets/TFCTexture/Глина.png"
     },
     {
       "name": "Сычуг",
@@ -581,7 +581,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Сычуг.png"
     },
     {
       "name": "Креозот (бочка)",
@@ -592,7 +592,7 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Ведро креозота.png"
     },
     {
       "name": "Каолинит (1 порошок)",
@@ -603,7 +603,7 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Каолинитовый Порошок.png"
     },
     {
       "name": "Узда",
@@ -614,7 +614,7 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Узда.png"
     },
     {
       "name": "Оливковая паста",
@@ -625,7 +625,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Оливковая паста.png"
     },
     {
       "name": "Крупа (100г)",
@@ -636,7 +636,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Food/food/rye_grain.png"
     },
     {
       "name": "Морковь (100г)",
@@ -647,7 +647,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Food/food/carrot.png"
     },
     {
       "name": "Головка сыра (80г)",
@@ -658,7 +658,7 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Food/cheese/cheddar.png"
     },
     {
       "name": "Овощной сок (бочка)",
@@ -669,7 +669,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Овощной сок.png"
     },
     {
       "name": "Фруктовый сок (бочка)",
@@ -680,7 +680,7 @@
       "minPercent": 20,
       "isBuy": false,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/Фруктовый сок.png"
     },
     {
       "name": "Каменный уголь (битум, лигнит, гагат)",
@@ -691,7 +691,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/ore/bituminous_coal.png"
     },
     {
       "name": "Шкура (Крупная) Alex_IDE",
