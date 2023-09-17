@@ -99,7 +99,7 @@ function calcTrade() {
             dqs('#calcRowTotal').innerText = total;
         } else {
             document.lastClacItem = {};
-            dqs('#calcRowTotal').innerText = 0;
+            //dqs('#calcRowTotal').innerText = 0;
         }
     } else {
         dqs('#tradeAmount').value = 0;
@@ -179,6 +179,7 @@ function drawBasket() {
     if (document.basket.length === 0) {
         dqs('#basketList').innerHTML = '';
         drawTables();
+        dqs('#basketCompleteLabel').innerText = `Доход: 0`;
         return false;
     }
     dqs('#basketList').innerHTML = '';
