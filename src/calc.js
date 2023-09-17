@@ -173,6 +173,15 @@ function drawBasket() {
     dqs('#basketList').innerHTML = '';
     let complete = 0;
     let label = dqs('#basketCompleteLabel');
+    basketList.innerHTML += `
+        <div class='row p-1'>
+            <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/castle.png" width="24" height="24" alt="Город"></div>
+            <div class="col-6 border-end">Товар</div>
+            <div class="col border-end ps-1 pe-1">Кол-во</div>
+            <div class="col border-end ps-1 pe-1">Цена</div>
+            <div class="col-1"></div>
+        </div>
+        `
     document.basket.forEach((item, index) => {
         if(item.buyType === 'buy'){
             complete += item.total;
@@ -181,7 +190,7 @@ function drawBasket() {
         }
         basketList.innerHTML += `
         <div class='row p-1'>
-            <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/${item.buyType}.png" width="24" height="24" alt="${item.buyType}"></div>
+            <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/${item.buyType}.png" width="32" height="24" alt="${item.buyType}"></div>
             <div class="col-6 border-end"><img style="margin-right: 5px;" src="${item.icon}" width=16 height=16 alt='${item.name}'>${item.name}</div>
             <div class="col border-end ps-1 pe-1">${item.amount}</div>
             <div class="col border-end ps-1 pe-1">${item.total}</div>
