@@ -742,7 +742,7 @@
       "category": "other",
       "amount": 1105,
       "sell": 60,
-      "buy": 50,
+      "buy": 28,
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
