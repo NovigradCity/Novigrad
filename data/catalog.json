@@ -623,7 +623,7 @@
       "sell": 0,
       "buy": 2,
       "minPercent": 20,
-      "isBuy": false,
+      "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
     },
