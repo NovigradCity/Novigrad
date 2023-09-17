@@ -702,7 +702,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/hide(Шкуры)/raw_Big.png"
     },
     {
       "name": "Шкура (Средняя) Alex_IDE",
@@ -713,7 +713,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/hide(Шкуры)/raw_Medium.png"
     },
     {
       "name": "Шкура (Мелкая) Alex_IDE",
@@ -724,7 +724,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+      "icon": "/assets/TFCTexture/hide(Шкуры)/raw_Small.png"
     },
     {
       "name": "Кожа",
