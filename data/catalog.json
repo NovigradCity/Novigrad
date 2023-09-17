@@ -262,7 +262,7 @@
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
-      "icon": "/assets/ingot/cooper.png"
+      "icon": "/assets/ingot/copper.png"
     },
     {
       "name": "Висмут",
