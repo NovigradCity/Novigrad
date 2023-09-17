@@ -103,7 +103,7 @@ function calcTrade() {
         }
     } else {
         dqs('#tradeAmount').value = 0;
-        dqs('#calcRowTotal').innerText = 0;
+        //dqs('#calcRowTotal').innerText = 0;
         document.lastClacItem = {};
     }
 }
