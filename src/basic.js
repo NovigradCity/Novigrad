@@ -127,6 +127,12 @@ async function drawTables(){
                 let base = logic.base;
                 let tmpAmm = currentAmm - base;
                 sell = sell - (Math.ceil(tmpAmm / steep) * logic.sell);
+
+                if(row.amount % logic.steep === 0){
+                    sell -= logic.sell;
+                }
+            } else if (row.amount === logic.base){
+                sell -= logic.sell;
             }
         }
 
