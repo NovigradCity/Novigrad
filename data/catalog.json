@@ -747,6 +747,17 @@
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/leather.png"
+    },
+    {
+      "name": "Седло",
+      "category": "other",
+      "amount": 10,
+      "sell": 60,
+      "buy": 0,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/седло.png"
     }
   ],
   "categories": {
