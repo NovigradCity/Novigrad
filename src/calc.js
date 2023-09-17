@@ -134,13 +134,14 @@ function drawBasket() {
     }
     dqs('#basketList').innerHTML = '';
     document.basket.forEach((item, index) => {
+
         basketList.innerHTML += `
-        <div class='row'>
-            <div class="col border-end">${item.buyType}</div>
+        <div class='row p-1'>
+            <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/${item.buyType}.png" width="24" height="24" alt="${item.buyType}"></div>
             <div class="col border-end">${item.name}</div>
             <div class="col border-end">${item.amount}</div>
             <div class="col border-end">${item.total}</div>
-            <div class="col"><button onclick="removeFromBasket(${index})" class="btn btn-sm btn-danger">X</button></div>
+            <div class="col-1"><button onclick="removeFromBasket(${index})" class="btn btn-sm btn-danger">X</button></div>
         </div>
         `
     });
