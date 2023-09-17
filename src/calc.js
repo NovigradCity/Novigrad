@@ -39,6 +39,11 @@ function calcTrade() {
             let startPrice = 0;
 
             if (buyType === 'sell') {
+                if(amount >= productData.amount){
+                    amount = productData.amount;
+                    dqs('#tradeAmount').value = amount;
+                }
+
                 startPrice = productData.sell;
             } else {
                 startPrice = productData.buy;
