@@ -86,7 +86,7 @@ async function drawTables(){
         <th scope="col">Наименование</th>
         <th scope="col">Покупка</th>
         <th scope="col">Продажа</th>
-        <th scope="col">Наличии</th>
+        <th scope="col">Наличие</th>
         `;
 
         thead.append(tr);
