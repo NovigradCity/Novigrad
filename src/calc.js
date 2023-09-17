@@ -115,15 +115,53 @@ function addToBasket() {
 function removeFromBasket(index) {
     index = parseInt(index);
     let spliced = document.basket.splice(index, 1)[0];
-    console.log(spliced);
+    //console.log(spliced);
     let item = document.tradeData.items.filter(item => spliced.name === item.name && spliced.category === item.category);
     if (spliced.buyType === 'sell') {
         item[0].amount += spliced.amount;
     } else if (spliced.buyType === 'buy') {
         item[0].amount -= spliced.amount;
     }
+    reCalcBasket();
+
+    dqs('#tradeSelectCategory').value = spliced.category;
+    dqs('#tradeSelectItem').value = spliced.name;
+    dqs('#tradeSelectType').value = spliced.buyType;
+    dqs('#tradeAmount').value = spliced.amount;
+
     calcTrade();
     drawBasket();
+}
+
+function reCalcBasket(){
+    let newBasket = Object.assign([], document.basket);
+    console.log(newBasket);
+    document.basket = [];
+
+    newBasket.forEach(item => {
+        itemJ = document.tradeData.items.filter(itemF => item.name === itemF.name && item.category === itemF.category);
+        if (item.buyType === 'sell') {
+            itemJ[0].amount += item.amount;
+        } else if (item.buyType === 'buy') {
+            itemJ[0].amount -= item.amount;
+        }
+    })
+
+    newBasket.forEach(item => {
+        console.log(item);
+        dqs('#tradeSelectCategory').value = item.category;
+        dqs('#tradeSelectItem').value = item.name;
+        dqs('#tradeSelectType').value = item.buyType;
+        dqs('#tradeAmount').value = item.amount;
+        calcTrade();
+        document.basket.push(Object.assign({}, document.lastClacItem));
+        itemJ = document.tradeData.items.filter(item => document.lastClacItem.name === item.name && document.lastClacItem.category === item.category);
+        if (document.lastClacItem.buyType === 'sell') {
+            itemJ[0].amount -= document.lastClacItem.amount;
+        } else if (document.lastClacItem.buyType === 'buy') {
+            itemJ[0].amount += document.lastClacItem.amount;
+        }
+    });
 }
 
 function drawBasket() {
