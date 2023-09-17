@@ -140,6 +140,31 @@
       ]
     },
     {
+      "name": "Стальная",
+      "category": "vShopArmorHorse",
+      "price": 1310,
+      "icons": [
+        "/assets/VonderanShop/Броня/horse_armor/steel.png"
+      ]
+    },
+    {
+      "name": "Чёрная сталь",
+      "category": "vShopArmorHorse",
+      "price": 2175,
+      "icons": [
+        "/assets/VonderanShop/Броня/horse_armor/black_steel.png"
+      ]
+    },
+    {
+      "name": "Цветная сталь",
+      "category": "vShopArmorHorse",
+      "price": 3600,
+      "icons": [
+        "/assets/VonderanShop/Броня/horse_armor/blue_steel.png",
+        "/assets/VonderanShop/Броня/horse_armor/red_steel.png"
+      ]
+    },
+    {
       "name": "Рюкзак белый",
       "category": "vShopAccessories",
       "price": 600,
