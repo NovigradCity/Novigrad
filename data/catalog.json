@@ -681,6 +681,61 @@
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Каменный уголь (битум, лигнит, гагат)",
+      "category": "other",
+      "amount": 0,
+      "sell": 0,
+      "buy": 5,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Шкура (Крупная) Alex_IDE",
+      "category": "other",
+      "amount": 0,
+      "sell": 0,
+      "buy": 30,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Шкура (Средняя) Alex_IDE",
+      "category": "other",
+      "amount": 0,
+      "sell": 0,
+      "buy": 20,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Шкура (Мелкая) Alex_IDE",
+      "category": "other",
+      "amount": 0,
+      "sell": 0,
+      "buy": 10,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Кожа",
+      "category": "other",
+      "amount": 1193,
+      "sell": 60,
+      "buy": 50,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/leather.png"
     }
   ],
   "categories": {
