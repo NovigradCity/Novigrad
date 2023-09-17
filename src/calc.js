@@ -21,6 +21,10 @@ function selectCategory() {
 function calcTrade() {
     let amount = dqs('#tradeAmount').value;
     amount = parseInt(amount);
+    if(amount > 50000) {
+        amount = 50000;
+        dqs('#tradeAmount').value = amount;
+    }
     if (amount > 0) {
         let category = dqs('#tradeSelectCategory').value;
         let product = dqs('#tradeSelectItem').value;
@@ -64,10 +68,13 @@ function calcTrade() {
                     let tmpSteep = 0;
                     let tmpAmm = 0;
                     let lastRecalc = 0;
+                    let minPrice = productData.buy / 100 * productData.minPercent;
                     if (currentAmm > base) {
                         tmpAmm = currentAmm - base;
                         lastRecalc = Math.ceil(tmpAmm / steep);
                         startPrice = startPrice - (Math.ceil(tmpAmm / steep) * logic.sell);
+                        if(minPrice > startPrice)
+                            startPrice = minPrice;
                     }
                     let tmpAmount = amount;
 
@@ -79,6 +86,8 @@ function calcTrade() {
                             if (lastRecalc !== Math.ceil(tmpAmm / steep)) {
                                 lastRecalc = Math.ceil(tmpAmm / steep);
                                 startPrice -= logic.sell;
+                                if(minPrice > startPrice)
+                                    startPrice = minPrice;
                             }
                         }
                         total += startPrice;
