@@ -86,7 +86,7 @@ function calcTrade() {
                 }
             }
             total = Math.floor(total);
-            document.lastClacItem = {name: productData.name, category, amount, total, isLogic, buyType}
+            document.lastClacItem = {name: productData.name, category, amount, total, isLogic, buyType, icon: productData.icon}
             dqs('#calcRowTotal').innerText = total;
         } else {
             document.lastClacItem = {};
@@ -171,17 +171,24 @@ function drawBasket() {
         return false;
     }
     dqs('#basketList').innerHTML = '';
+    let complete = 0;
+    let label = dqs('#basketCompleteLabel');
     document.basket.forEach((item, index) => {
-
+        if(item.buyType === 'buy'){
+            complete += item.total;
+        }else{
+            complete -= item.total;
+        }
         basketList.innerHTML += `
         <div class='row p-1'>
             <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/${item.buyType}.png" width="24" height="24" alt="${item.buyType}"></div>
-            <div class="col border-end">${item.name}</div>
-            <div class="col border-end">${item.amount}</div>
-            <div class="col border-end">${item.total}</div>
+            <div class="col-6 border-end"><img style="margin-right: 5px;" src="${item.icon}" width=16 height=16 alt='${item.name}'>${item.name}</div>
+            <div class="col border-end ps-1 pe-1">${item.amount}</div>
+            <div class="col border-end ps-1 pe-1">${item.total}</div>
             <div class="col-1"><button onclick="removeFromBasket(${index})" class="btn btn-sm btn-danger">X</button></div>
         </div>
         `
     });
+    label.innerText = `Доход: ${complete}`;
     drawTables();
 }
