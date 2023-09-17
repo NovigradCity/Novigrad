@@ -549,13 +549,146 @@
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/ore/native_platinum.png"
+    },
+    {
+      "name": "Коксовый уголь",
+      "category": "other",
+      "amount": 6000,
+      "sell": 4,
+      "buy": 0,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Глина (5 шт)",
+      "category": "other",
+      "amount": 182,
+      "sell": 2,
+      "buy": 1,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/ore/native_platinum.png"
+    },
+    {
+      "name": "Сычуг",
+      "category": "other",
+      "amount": 86,
+      "sell": 10,
+      "buy": 7,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Креозот (бочка)",
+      "category": "other",
+      "amount": 0,
+      "sell": 3000,
+      "buy": 0,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Каолинит (1 порошок)",
+      "category": "other",
+      "amount": 2000,
+      "sell": 2.5,
+      "buy": 0,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Узда",
+      "category": "other",
+      "amount": 10,
+      "sell": 270,
+      "buy": 0,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Оливковая паста",
+      "category": "other",
+      "amount": 0,
+      "sell": 0,
+      "buy": 2,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Крупа (100г)",
+      "category": "eat",
+      "amount": 0,
+      "sell": 0,
+      "buy": 3,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Морковь (100г)",
+      "category": "eat",
+      "amount": 0,
+      "sell": 0,
+      "buy": 2,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Головка сыра (80г)",
+      "category": "eat",
+      "amount": 0,
+      "sell": 0,
+      "buy": 80,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Овощной сок (бочка)",
+      "category": "eat",
+      "amount": 0,
+      "sell": 0,
+      "buy": 80,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
+    },
+    {
+      "name": "Фруктовый сок (бочка)",
+      "category": "eat",
+      "amount": 0,
+      "sell": 0,
+      "buy": 80,
+      "minPercent": 20,
+      "isBuy": false,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
     }
   ],
   "categories": {
     "wood": "Дерево",
     "ingot": "Слитки",
     "ore": "Руда (цена за 100ед)",
-    "other": "Разное"
+    "other": "Разное",
+    "eat": "Провиант"
   },
   "categorySettings": {
     "ore": "buyOnly"
