@@ -758,6 +758,17 @@
       "isBuy": false,
       "isSell": true,
       "icon": "/assets/TFCTexture/седло.png"
+    },
+    {
+      "name": "Ромашка",
+      "category": "other",
+      "amount": 139,
+      "sell": 0,
+      "buy": 5,
+      "minPercent": 20,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/седло.png"
     }
   ],
   "categories": {
