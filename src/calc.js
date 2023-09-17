@@ -21,7 +21,7 @@ function selectCategory() {
 function calcTrade() {
     let amount = dqs('#tradeAmount').value;
     amount = parseInt(amount);
-    if(amount > 20000) {
+    if (amount > 20000) {
         amount = 20000;
         dqs('#tradeAmount').value = amount;
     }
@@ -43,7 +43,7 @@ function calcTrade() {
             let startPrice = 0;
 
             if (buyType === 'sell') {
-                if(amount >= productData.amount){
+                if (amount >= productData.amount) {
                     amount = productData.amount;
                     dqs('#tradeAmount').value = amount;
                 }
@@ -73,7 +73,7 @@ function calcTrade() {
                         tmpAmm = currentAmm - base;
                         lastRecalc = Math.ceil(tmpAmm / steep);
                         startPrice = startPrice - (Math.ceil(tmpAmm / steep) * logic.sell);
-                        if(minPrice > startPrice)
+                        if (minPrice > startPrice)
                             startPrice = minPrice;
                     }
                     let tmpAmount = amount;
@@ -86,7 +86,7 @@ function calcTrade() {
                             if (lastRecalc !== Math.ceil(tmpAmm / steep)) {
                                 lastRecalc = Math.ceil(tmpAmm / steep);
                                 startPrice -= logic.sell;
-                                if(minPrice > startPrice)
+                                if (minPrice > startPrice)
                                     startPrice = minPrice;
                             }
                         }
@@ -95,7 +95,15 @@ function calcTrade() {
                 }
             }
             total = Math.floor(total);
-            document.lastClacItem = {name: productData.name, category, amount, total, isLogic, buyType, icon: productData.icon}
+            document.lastClacItem = {
+                name: productData.name,
+                category,
+                amount,
+                total,
+                isLogic,
+                buyType,
+                icon: productData.icon
+            }
             dqs('#calcRowTotal').innerText = total;
         } else {
             document.lastClacItem = {};
@@ -144,7 +152,7 @@ function removeFromBasket(index) {
     drawBasket();
 }
 
-function reCalcBasket(){
+function reCalcBasket() {
     let newBasket = Object.assign([], document.basket);
     console.log(newBasket);
     document.basket = [];
@@ -180,6 +188,11 @@ function drawBasket() {
         dqs('#basketList').innerHTML = '';
         drawTables();
         dqs('#basketCompleteLabel').innerText = `Доход: 0`;
+        dqs('#basketList').innerHTML = `
+        <div class="alert alert-dark" role="alert">
+            Корзина пуста
+        </div>
+        `;
         return false;
     }
     dqs('#basketList').innerHTML = '';
@@ -195,9 +208,9 @@ function drawBasket() {
         </div>
         `
     document.basket.forEach((item, index) => {
-        if(item.buyType === 'buy'){
+        if (item.buyType === 'buy') {
             complete += item.total;
-        }else{
+        } else {
             complete -= item.total;
         }
         basketList.innerHTML += `
