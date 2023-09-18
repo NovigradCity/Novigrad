@@ -595,7 +595,7 @@
         "steep": 50,
         "sell": 1,
         "min" : 1
-      }
+      },
       "isBuy": false,
       "isSell": false,
       "icon": "/assets/TFCTexture/Сычуг.png"
