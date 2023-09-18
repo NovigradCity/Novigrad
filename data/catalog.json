@@ -267,7 +267,7 @@
     {
       "name": "Висмут",
       "category": "ingot",
-      "amount": 131,
+      "amount": 259,
       "buy": 27,
       "sell": 32,
       "minPercent": 20,
@@ -388,7 +388,7 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": 140,
+      "amount": 172,
       "buy": 50,
       "sell": 63,
       "minPercent": 20,
