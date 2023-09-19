@@ -742,10 +742,15 @@
       "category": "other",
       "amount": 1105,
       "sell": 60,
-      "buy": 28,
+      "buy": 40,
       "minPercent": 20,
-      "isBuy": false,
-      "isSell": false,
+      "isBuy": true,
+      "isSell": true,
+      "logic": {
+        "steep": 50,
+        "base": 400,
+        "sell": 1
+      },
       "icon": "/assets/TFCTexture/leather.png"
     },
     {

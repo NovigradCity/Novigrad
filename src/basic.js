@@ -2,9 +2,9 @@ const dqs = (selector) => {
     return document.querySelector(selector);
 }
 
-async function drawTables(){
+async function drawTables() {
     let data = null;
-    if(typeof document.tradeData === 'undefined'){
+    if (typeof document.tradeData === 'undefined') {
         data = await fetch('./data/catalog.json', {cache: "no-store"});
         data = await data.json();
         document.tradeData = data;
@@ -16,7 +16,7 @@ async function drawTables(){
 
     let afterDrawActive = null;
     let afterSelectedCategory = null;
-    if(data === null){
+    if (data === null) {
         data = document.tradeData;
         afterDrawActive = dqs('#tradeTabs').querySelector('.active').id;
         dqs('#tradeTabs').innerHTML = '';
@@ -25,7 +25,7 @@ async function drawTables(){
         dqs('#tradeSelectCategory').innerHTML = '';
     }
 
-    for(let iKey in data.categories){
+    for (let iKey in data.categories) {
         let id = 'tradeTab_' + iKey;
         let tabHead = document.createElement('li');
         tabHead.classList.add('nav-item');
@@ -35,7 +35,7 @@ async function drawTables(){
         tabButton.classList.add('value');
         tabButton.classList.add('text-white');
         tabButton.classList.add('rounded-0');
-        if(isFirst){
+        if (isFirst) {
             tabButton.classList.add('active');
             //isFirst = false;
         }
@@ -56,7 +56,7 @@ async function drawTables(){
         let block = document.createElement('div');
         block.classList.add('tab-pane');
         block.classList.add('fade');
-        if(isFirst){
+        if (isFirst) {
             block.classList.add('active');
             block.classList.add('show');
             isFirst = false;
@@ -100,7 +100,7 @@ async function drawTables(){
     }
 
     let counter = 0;
-    for(let iKey in data.items){
+    for (let iKey in data.items) {
 
         let row = data.items[iKey];
         let tr = document.createElement('tr');
@@ -108,20 +108,23 @@ async function drawTables(){
         let isBuy = (row.isBuy) ? 'text-success' : 'text-danger';
 
         let rowIco = '';
-        if(row.icon){
+        if (row.icon) {
             rowIco = `<img src="${row.icon}" width=24 height=24 alt='${row.name}'>`
         }
 
         let sell = row.buy;
         let isLogic = false;
         let logic = {};
-        if(typeof document.tradeData.categoryPriceLogic[row.category] === 'object'){
+        if (row.logic) {
+            logic = row.logic;
+            isLogic = true;
+        } else if (typeof document.tradeData.categoryPriceLogic[row.category] === 'object') {
             logic = document.tradeData.categoryPriceLogic[row.category];
             isLogic = true;
         }
-        if(row.isBuy && isLogic){
+        if (row.isBuy && isLogic) {
             let minPrice = row.buy / 100 * row.minPercent;
-            if(row.amount > logic.base) {
+            if (row.amount > logic.base) {
                 let currentAmm = row.amount;
                 currentAmm = parseInt(currentAmm);
                 let steep = logic.steep;
@@ -129,13 +132,13 @@ async function drawTables(){
                 let tmpAmm = currentAmm - base;
                 sell = sell - (Math.ceil(tmpAmm / steep) * logic.sell);
 
-                if(row.amount % logic.steep === 0){
+                if (row.amount % logic.steep === 0) {
                     sell -= logic.sell;
                 }
-            } else if (row.amount === logic.base){
+            } else if (row.amount === logic.base) {
                 sell -= logic.sell;
             }
-            if(sell < minPrice){
+            if (sell < minPrice) {
                 sell = Math.ceil(minPrice);
             }
         }
@@ -152,10 +155,10 @@ async function drawTables(){
         counter++;
     }
 
-    if(afterDrawActive){
+    if (afterDrawActive) {
         dqs('#' + afterDrawActive).click();
     }
-    if(afterSelectedCategory){
+    if (afterSelectedCategory) {
         dqs('#tradeSelectCategory').querySelector(`[value='${afterSelectedCategory}']`).setAttribute('selected', true);
     }
 }
@@ -172,7 +175,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
     let trade = dqs('#vShop');
     let isFirst = true;
-    for(let iKey in data.categories){
+    for (let iKey in data.categories) {
         let id = 'tradevShopTab_' + iKey;
         let tabHead = document.createElement('li');
         tabHead.classList.add('nav-item');
@@ -182,7 +185,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         tabButton.classList.add('value');
         tabButton.classList.add('text-white');
         tabButton.classList.add('rounded-0');
-        if(isFirst){
+        if (isFirst) {
             tabButton.classList.add('active');
             //isFirst = false;
         }
@@ -198,7 +201,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         let block = document.createElement('div');
         block.classList.add('tab-pane');
         block.classList.add('fade');
-        if(isFirst){
+        if (isFirst) {
             block.classList.add('active');
             block.classList.add('show');
             isFirst = false;
@@ -241,14 +244,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     }
 
     counter = 0;
-    for(let iKey in data.items){
+    for (let iKey in data.items) {
         let row = data.items[iKey];
         let tr = document.createElement('tr');
         tr.style.fontSize = '1.5em';
         let rowIco = '';
-        if(row.icons){
-            if(row.icons.length > 0){
-                row.icons.forEach( ic => {
+        if (row.icons) {
+            if (row.icons.length > 0) {
+                row.icons.forEach(ic => {
                     rowIco += `<img src="${ic}" width=32 height=32 alt='${row.name}'>`
                 })
             }

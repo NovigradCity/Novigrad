@@ -34,7 +34,10 @@ function calcTrade() {
             productData = productData[0];
             let isLogic = false;
             let logic = {};
-            if (typeof document.tradeData.categoryPriceLogic[category] === 'object') {
+            if (productData.logic) {
+                logic = productData.logic;
+                isLogic = true;
+            } else if (typeof document.tradeData.categoryPriceLogic[category] === 'object') {
                 logic = document.tradeData.categoryPriceLogic[category];
                 isLogic = true;
             }
