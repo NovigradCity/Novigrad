@@ -774,6 +774,76 @@
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/седло.png"
+    },
+    {
+      "name": "Бур",
+      "category": "drill",
+      "amount": 1,
+      "sell": 30000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Бур.png"
+    },
+    {
+      "name": "Железная долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/wrought_iron.png"
+    },
+    {
+      "name": "Стальная долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/steel.png"
+    },
+    {
+      "name": "ЧС долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/black_steel.png"
+    },
+    {
+      "name": "Железная с алмазным напылением долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_wrought_iron.png"
+    },
+    {
+      "name": "Стальная с алмазным напылением долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_steel.png"
+    },
+    {
+      "name": "ЧС с алмазным напылением долота",
+      "category": "drill",
+      "amount": 1,
+      "sell": 1000,
+      "buy": 0,
+      "isBuy": false,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_black_steel.png"
     }
   ],
   "categories": {
@@ -781,7 +851,8 @@
     "ingot": "Слитки",
     "ore": "Руда (цена за 100ед)",
     "other": "Разное",
-    "eat": "Провиант"
+    "eat": "Провиант",
+    "drill": "Бур"
   },
   "categorySettings": {
     "ore": "buyOnly"
