@@ -245,7 +245,7 @@
     {
       "name": "Цинк",
       "category": "ingot",
-      "amount": 189,
+      "amount": 317,
       "buy": 27,
       "sell": 32,
       "minPercent": 20,
@@ -256,7 +256,7 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": 365,
+      "amount": 429,
       "buy": 35,
       "sell": 45,
       "minPercent": 20,
@@ -300,7 +300,7 @@
     {
       "name": "Серебро",
       "category": "ingot",
-      "amount": 86,
+      "amount": 150,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
