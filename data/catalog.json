@@ -602,7 +602,7 @@
     {
       "name": "Креозот (бочка)",
       "category": "plant",
-      "amount": 0,
+      "amount": 1,
       "sell": 5000,
       "buy": 0,
       "minPercent": 20,
