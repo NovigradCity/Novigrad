@@ -814,7 +814,7 @@
       "icon": "/assets/TFCTexture/стеллаж.png"
     },
     {
-      "name": "Стеллаж (ЧС)",
+      "name": "Стеллаж (Черностальной)",
       "category": "other",
       "amount": 1,
       "sell": 9500,
@@ -867,7 +867,7 @@
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/black_steel.png"
     },
     {
-      "name": "Нанесение алмазного напыления на черносплавное долото",
+      "name": "Нанесение алмазного напыления на Черностальное долото",
       "category": "drill",
       "amount": 1,
       "sell": 1200,
