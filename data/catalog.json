@@ -607,7 +607,7 @@
       "buy": 0,
       "minPercent": 20,
       "isBuy": false,
-      "isSell": false,
+      "isSell": true,
       "icon": "/assets/TFCTexture/Ведро креозота.png"
     },
     {
