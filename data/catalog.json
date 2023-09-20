@@ -782,7 +782,7 @@
       "sell": 30000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/Бур.png"
     },
     {
@@ -792,7 +792,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/wrought_iron.png"
     },
     {
@@ -802,7 +802,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/steel.png"
     },
     {
@@ -812,7 +812,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/black_steel.png"
     },
     {
@@ -822,7 +822,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_wrought_iron.png"
     },
     {
@@ -832,7 +832,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_steel.png"
     },
     {
@@ -842,7 +842,7 @@
       "sell": 1000,
       "buy": 0,
       "isBuy": false,
-      "isSell": true,
+      "isSell": false,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_black_steel.png"
     },
     {
