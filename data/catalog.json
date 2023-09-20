@@ -848,7 +848,7 @@
     },
     {
       "name": "Бур",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 32000,
       "buy": 0,
@@ -858,67 +858,67 @@
     },
     {
       "name": "Черностальное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 3300,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/black_steel.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/black_steel.png"
     },
     {
       "name": "Нанесение алмазного напыления на черностальное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 1200,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_black_steel.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/diamond_black_steel.png"
     },
     {
       "name": "Стальное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 1900,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/steel.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/steel.png"
     },
     {
       "name": "Нанесение алмазного напыления на стальное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 740,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_steel.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/diamond_steel.png"
     },
     {
       "name": "Железное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 1250,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/wrought_iron.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/wrought_iron.png"
     },
     {
       "name": "Нанесение алмазного напыления на железное долото",
-      "category": "drill",
+      "category": "plant",
       "amount": 1,
       "sell": 580,
       "buy": 0,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_wrought_iron.png"
+      "icon": "/assets/TFCTexture/MoreTexture/planthead/diamond_wrought_iron.png"
     },
     {
       "name": "Бирюзовый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -928,7 +928,7 @@
     },
     {
       "name": "Серый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -938,7 +938,7 @@
     },
     {
       "name": "Зелёный",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -948,7 +948,7 @@
     },
     {
       "name": "Голубой",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -958,7 +958,7 @@
     },
     {
       "name": "Лайм",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -968,7 +968,7 @@
     },
     {
       "name": "Пурпурный",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -978,7 +978,7 @@
     },
     {
       "name": "Оранжевый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -988,7 +988,7 @@
     },
     {
       "name": "Розовый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -998,7 +998,7 @@
     },
     {
       "name": "Фиолетовый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -1008,7 +1008,7 @@
     },
     {
       "name": "Красный",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -1018,7 +1018,7 @@
     },
     {
       "name": "Серебренный",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -1028,7 +1028,7 @@
     },
     {
       "name": "Желтый",
-      "category": "colors",
+      "category": "other",
       "amount": 0,
       "sell": 2,
       "buy": 1,
@@ -1043,8 +1043,6 @@
     "ore": "Руда (цена за 100ед)",
     "eat": "Провиант",
     "other": "Разное",
-    "colors": "Красители",
-    "drill": "Бур",
     "plant": "Оборудование"
   },
   "categorySettings": {
