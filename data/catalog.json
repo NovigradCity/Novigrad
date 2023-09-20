@@ -1121,7 +1121,7 @@
       "category": "drag",
       "amount": 0,
       "sell": 0,
-      "buy": 72,
+      "buy": 70,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/Камни/Безупречныйemerald.png"
@@ -1131,7 +1131,7 @@
       "category": "drag",
       "amount": 0,
       "sell": 0,
-      "buy": 144,
+      "buy": 140,
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/Камни/Изысканыйemerald.png"
