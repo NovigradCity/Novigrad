@@ -781,7 +781,7 @@
       "icon": "/assets/TFCTexture/седло.png"
     },
     {
-      "name": "Био дизель (бочка)",
+      "name": "Биодизель (бочка)",
       "category": "plant",
       "amount": 10,
       "sell": 3000,
@@ -940,10 +940,10 @@
       "name": "Труба доменной печи",
       "category": "plant",
       "amount": 1,
-      "sell": 2300,
+      "sell": 9600,
       "buy": 0,
       "isBuy": false,
-      "isSell": false,
+      "isSell": true,
       "icon": "/assets/TFCTexture/Домна.png"
     },
     {
@@ -1094,7 +1094,7 @@
       "buy": 1,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Выщербленныйemerald.png"
     },
     {
       "name": "Треснутый (любой)",
@@ -1104,7 +1104,7 @@
       "buy": 4,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Треснутыйemerald.png"
     },
     {
       "name": "Обычный (любой)",
@@ -1114,7 +1114,7 @@
       "buy": 9,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Обычныйemerald.png"
     },
     {
       "name": "Безупречный (любой)",
@@ -1124,7 +1124,7 @@
       "buy": 72,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Безупречныйemerald.png"
     },
     {
       "name": "Изысканный (любой)",
@@ -1134,57 +1134,57 @@
       "buy": 144,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Изысканыйemerald.png"
     },
     {
-      "name": "Алмаз (Выщербленный)",
+      "name": "Выщербленный (Алмаз)",
       "category": "drag",
       "amount": 0,
       "sell": 0,
       "buy": 4,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Выщербленныйdiamond.png"
     },
     {
-      "name": "Алмаз (Треснутый)",
+      "name": "Треснутый (Алмаз)",
       "category": "drag",
       "amount": 0,
       "sell": 0,
       "buy": 13,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Треснутыйdiamond.png"
     },
     {
-      "name": "Алмаз (Обычный)",
+      "name": "Обычный (Алмаз)",
       "category": "drag",
       "amount": 0,
       "sell": 0,
       "buy": 25,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Обычныйdiamond.png"
     },
     {
-      "name": "Алмаз (Безупречный)",
+      "name": "Безупречный (Алмаз)",
       "category": "drag",
       "amount": 0,
       "sell": 0,
       "buy": 140,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Безупречныйdiamond.png"
     },
     {
-      "name": "Алмаз (Изысканный)",
+      "name": "Изысканный (Алмаз)",
       "category": "drag",
       "amount": 0,
       "sell": 0,
       "buy": 290,
       "isBuy": true,
       "isSell": false,
-      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+      "icon": "/assets/TFCTexture/Камни/Изысканыйdiamond.png"
     }
   ],
   "categories": {
