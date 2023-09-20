@@ -256,7 +256,7 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": 350,
+      "amount": 365,
       "buy": 35,
       "sell": 45,
       "minPercent": 20,
