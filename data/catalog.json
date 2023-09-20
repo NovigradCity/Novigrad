@@ -1035,6 +1035,106 @@
       "isBuy": true,
       "isSell": true,
       "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Выщербленный (любой)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Треснутый (любой)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 4,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Обычный (любой)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 9,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Безупречный (любой)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 72,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Изысканный (любой)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 144,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Алмаз (Выщербленный)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 4,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Алмаз (Треснутый)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 13,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Алмаз (Обычный)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 25,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Алмаз (Безупречный)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 140,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
+    },
+    {
+      "name": "Алмаз (Изысканный)",
+      "category": "drag",
+      "amount": 0,
+      "sell": 0,
+      "buy": 290,
+      "isBuy": true,
+      "isSell": false,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
     }
   ],
   "categories": {
@@ -1043,7 +1143,8 @@
     "ore": "Руда (цена за 100ед)",
     "eat": "Провиант",
     "other": "Разное",
-    "plant": "Оборудование"
+    "plant": "Оборудование",
+    "drag": "Драгоценные камни"
   },
   "categorySettings": {
     "ore": "buyOnly"
