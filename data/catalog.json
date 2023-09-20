@@ -202,8 +202,8 @@
       "name": "Сосна",
       "category": "wood",
       "amount": 2199,
-      "sell": 0.4,
-      "buy": 0.55,
+      "sell": 0.55,
+      "buy": 0.4,
       "minPercent": 20,
       "isBuy": true,
       "isSell": true,
@@ -844,6 +844,126 @@
       "isBuy": false,
       "isSell": true,
       "icon": "/assets/TFCTexture/MoreTexture/drillhead/diamond_black_steel.png"
+    },
+    {
+      "name": "Голубой",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_cyan.png"
+    },
+    {
+      "name": "Серый",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_gray.png"
+    },
+    {
+      "name": "Зелёный",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_green.png"
+    },
+    {
+      "name": "Светло синий",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_light_blue.png"
+    },
+    {
+      "name": "Лайм",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_lime.png"
+    },
+    {
+      "name": "Пурпурный",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_magenta.png"
+    },
+    {
+      "name": "Оранжевый",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_orange.png"
+    },
+    {
+      "name": "Розовый",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_pink.png"
+    },
+    {
+      "name": "Фиолетовый",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_purple.png"
+    },
+    {
+      "name": "Красный",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_red.png"
+    },
+    {
+      "name": "Серебренный",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_silver.png"
+    },
+    {
+      "name": "Желтый",
+      "category": "colors",
+      "amount": 0,
+      "sell": 2,
+      "buy": 1,
+      "isBuy": true,
+      "isSell": true,
+      "icon": "/assets/TFCTexture/MoreTexture/Красители/dye_powder_yellow.png"
     }
   ],
   "categories": {
@@ -852,7 +972,8 @@
     "ore": "Руда (цена за 100ед)",
     "other": "Разное",
     "eat": "Провиант",
-    "drill": "Бур"
+    "drill": "Бур",
+    "colors": "Красители"
   },
   "categorySettings": {
     "ore": "buyOnly"
