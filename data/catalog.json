@@ -793,7 +793,7 @@
     },
     {
       "name": "Меха",
-      "category": "other",
+      "category": "plant",
       "amount": 1,
       "sell": 200,
       "buy": 0,
@@ -804,18 +804,18 @@
     },
     {
       "name": "Стеллаж (Стерлинговый)",
-      "category": "other",
+      "category": "plant",
       "amount": 1,
       "sell": 3100,
       "buy": 0,
       "minPercent": 20,
       "isBuy": false,
       "isSell": true,
-      "icon": "/assets/TFCTexture/стеллаж.png"
+      "icon": "/assets/TFCTexture/стеллаж_л.png"
     },
     {
       "name": "Стеллаж (Черностальной)",
-      "category": "other",
+      "category": "plant",
       "amount": 1,
       "sell": 9500,
       "buy": 0,
@@ -1041,10 +1041,11 @@
     "wood": "Дерево",
     "ingot": "Слитки",
     "ore": "Руда (цена за 100ед)",
-    "other": "Разное",
     "eat": "Провиант",
+    "other": "Разное",
+    "colors": "Красители",
     "drill": "Бур",
-    "colors": "Красители"
+    "plant": "Оборудование"
   },
   "categorySettings": {
     "ore": "buyOnly"
