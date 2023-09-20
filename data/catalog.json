@@ -1158,7 +1158,20 @@
     "ore": {
       "steep": 2000,
       "base": 10000,
-      "sell": 1
+      "sell": 1,
+      "showBuy": false,
+      "showAmount": false
+    },
+    "eat": {
+      "showBuy": false,
+      "showAmount": false
+    },
+    "plant": {
+      "showSell": false
+    },
+    "drag": {
+      "showBuy": false,
+      "showAmount": false
     }
   }
 }

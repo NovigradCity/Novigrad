@@ -79,14 +79,49 @@ async function drawTables() {
 
         let thead = document.createElement('thead');
 
+        let logicShow = data.categoryPriceLogic[iKey]
+        let isSell = true;
+        let isAmount = true;
+        let isBuy = true;
+        //console.log(logicShow);
+        if(logicShow){
+            if(typeof logicShow.showBuy !== 'undefined'){
+                isSell = logicShow.showBuy;
+            }
+            if(typeof logicShow.showAmount !== 'undefined'){
+                isAmount = logicShow.showAmount;
+            }
+            if(typeof logicShow.showSell !== 'undefined'){
+                isBuy = logicShow.showSell;
+            }
+        }
+
+        if(!isSell){
+            isSell = 'd-none'
+        }else{
+            isSell = '';
+        }
+
+        if(!isAmount){
+            isAmount = 'd-none'
+        }else{
+            isAmount = '';
+        }
+
+        if(!isBuy){
+            isBuy = 'd-none'
+        }else{
+            isBuy = '';
+        }
+
         let tr = document.createElement('tr');
         tr.innerHTML = `
         <th scope="col">#</th>
         <th>Иконка</th>
         <th scope="col">Наименование</th>
-        <th scope="col">Покупка</th>
-        <th scope="col">Продажа</th>
-        <th scope="col">Наличие</th>
+        <th scope="col" class="${isBuy}">Покупка</th>
+        <th scope="col" class="${isSell}">Продажа</th>
+        <th scope="col" class="${isAmount}">Наличие</th>
         `;
 
         thead.append(tr);
@@ -122,6 +157,41 @@ async function drawTables() {
             logic = document.tradeData.categoryPriceLogic[row.category];
             isLogic = true;
         }
+
+        let isSellShow = true;
+        let isAmountShow = true;
+        let isBuyShow = true;
+
+        if(logic){
+            if(typeof logic.showBuy !== 'undefined'){
+                isSellShow = logic.showBuy;
+            }
+            if(typeof logic.showAmount !== 'undefined'){
+                isAmountShow = logic.showAmount;
+            }
+            if(typeof logic.showSell !== 'undefined'){
+                isBuyShow = logic.showSell;
+            }
+        }
+
+        if(!isSellShow){
+            isSellShow = 'd-none'
+        }else{
+            isSellShow = '';
+        }
+
+        if(!isAmountShow){
+            isAmountShow = 'd-none'
+        }else{
+            isAmountShow = '';
+        }
+
+        if(!isBuyShow){
+            isBuyShow = 'd-none'
+        }else{
+            isBuyShow = '';
+        }
+
         if (row.isBuy && isLogic) {
             let minPrice = row.buy / 100 * row.minPercent;
             if (row.amount > logic.base) {
@@ -147,9 +217,9 @@ async function drawTables() {
         <td class="value">${counter}</td>
         <td style="width: 90px;">${rowIco}</td>
         <td class="value">${row.name}</td>
-        <td class="${isBuy} value">${sell}</td>
-        <td class="${isSell} value">${row.sell}</td>
-        <td class="value">${row.amount}</td>
+        <td class="${isBuy} ${isBuyShow} value">${sell}</td>
+        <td class="${isSell} ${isSellShow} value">${row.sell}</td>
+        <td class="value ${isAmountShow}">${row.amount}</td>
         `
         dqs('#' + row.category).append(tr);
         counter++;
