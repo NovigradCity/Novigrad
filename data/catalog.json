@@ -567,7 +567,12 @@
       "amount": 9000,
       "sell": 4,
       "buy": 0,
-      "minPercent": 20,
+      "logic": {
+        "steep": 4000,
+        "base": 4000,
+        "sell": 1
+      },
+      "minPercent": 25,
       "isBuy": false,
       "isSell": true,
       "icon": "/assets/TFCTexture/material_coal_coke(Кокс_Уголь).png"
