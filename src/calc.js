@@ -105,7 +105,8 @@ function calcTrade() {
                 total,
                 isLogic,
                 buyType,
-                icon: productData.icon
+                icon: productData.icon,
+                icons: productData.icons,
             }
             dqs('#calcRowTotal').innerText = total;
         } else {
@@ -216,10 +217,20 @@ function drawBasket() {
         } else {
             complete -= item.total;
         }
+        let iconRow = ``;
+        if(item.icon){
+            console.log(item.icon);
+            iconRow = `<img style="margin-right: 5px;" src="${item.icon}" width=16 height=16 alt='${item.name}'>`;
+        }else{
+            //console.log(item.icons);
+            item.icons.forEach(ic => {
+                iconRow += `<img style="margin-right: 5px;" src="${ic}" width=16 height=16 alt='${item.name}'>`;
+            })
+        }
         basketList.innerHTML += `
         <div class='row p-1'>
             <div class="col-1 pe-0 border-end" style="width: 50px;"><img src="/assets/${item.buyType}.png" width="32" height="24" alt="${item.buyType}"></div>
-            <div class="col-6 border-end"><img style="margin-right: 5px;" src="${item.icon}" width=16 height=16 alt='${item.name}'>${item.name}</div>
+            <div class="col-6 border-end">${iconRow}${item.name}</div>
             <div class="col border-end ps-1 pe-1">${item.amount}</div>
             <div class="col border-end ps-1 pe-1">${item.total}</div>
             <div class="col-1"><button onclick="removeFromBasket(${index})" class="btn btn-sm btn-danger">X</button></div>
