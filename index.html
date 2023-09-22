@@ -43,9 +43,9 @@
                     data-bs-target="#nav-screens" type="button" role="tab" aria-controls="nav-screens"
                     aria-selected="false">Скриншоты
             </button>
-            <button class="nav-link value text-white rounded-0 d-none" id="nav-VonderanShop-tab" data-bs-toggle="tab"
-                    data-bs-target="#nav-VonderanShop" type="button" role="tab" aria-controls="nav-VonderanShop"
-                    aria-selected="false">VonderanShop
+            <button class="nav-link value text-white rounded-0" id="nav-services-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-services" type="button" role="tab" aria-controls="nav-services"
+                    aria-selected="false">Службы города
             </button>
         </div>
     </nav>
@@ -193,6 +193,18 @@
             </div>
 
             <div class="block m-3 p-2">
+                Кол-во доступных к приобретению чанков в зависимости от титула:
+                <ol>
+                    <li><span class="text-rang-1">Эсквайр</span> - 1 чанк за городом</li>
+                    <li><span class="text-rang-2">Барон</span> - 1 чанк в городе, 1 за городом</li>
+                    <li><span class="text-rang-3">Виконт</span> - 1/2</li>
+                    <li><span class="text-rang-4">Граф</span> - 2/4</li>
+                    <li><span class="text-rang-5">Маркиз</span> - 2/8</li>
+                    <li><span class="text-rang-6">Герцог</span> - 2/12</li>
+                </ol>
+            </div>
+
+            <div class="block m-3 p-2">
                 Обо всех покупках вы должны оповестить <span class="text-rang-7">монарха</span> (для добавления описания
                 чанка и/или уменьшения цены
                 согласно титулу, см. ниже)<br><br>
@@ -261,12 +273,23 @@
 
             </div>
         </div>
-        <div class="tab-pane fade d-none" id="nav-VonderanShop" role="tabpanel" aria-labelledby="nav-screens-tab">
-            <div id="vShop" class="p-3 text-white">
-                <ul class="nav nav-tabs" id="vShopTabs" role="vShopTabsContainer">
-                </ul>
-                <div class="tab-content" id="vShopTabsContainer">
-                </div>
+        <div class="tab-pane fade" id="nav-services" role="tabpanel" aria-labelledby="nav-services-tab">
+            <div class="block m-3 p-2">
+                <p>
+                    В городе действует ряд <b>служб</b>, помогающих его развитию, ниже будет представлен их список с
+                    Никами<br>
+                    игроков, входящих в ряды той или иной службы, подробную информацию вы можете найти в закреплённых
+                    сообщениях в чатах категории <b>"услуги города"</b>:
+                </p>
+                <p>
+                    Купцы (скупают или продают ресурсы игрокам, чат ДС <b>#торговля</b>):<br>
+                    <b>ElGen</b> ( @ElGen (Денис) )<br>
+                    <b>Vonderan</b> ( @Vonderan )
+                </p>
+                <p>
+                    Дробильщики (перерабатывают руду, что увеличивает количество металла, чат ДС <b>#дробление</b> )<br>
+                    <b>Not_A_Pickle</b> ( @Огурчик Эдема )
+                </p>
             </div>
         </div>
     </div>
