@@ -278,7 +278,7 @@
     {
       "name": "Никель",
       "category": "ingot",
-      "amount": 286,
+      "amount": 322,
       "buy": 52,
       "sell": 70,
       "minPercent": 20,
@@ -333,7 +333,7 @@
     {
       "name": "Розовое золото",
       "category": "ingot",
-      "amount": 16,
+      "amount": 88,
       "buy": 63,
       "sell": 75,
       "minPercent": 20,
@@ -377,7 +377,7 @@
     {
       "name": "Стерлинг",
       "category": "ingot",
-      "amount": 26,
+      "amount": 84,
       "buy": 55,
       "sell": 68,
       "minPercent": 20,
