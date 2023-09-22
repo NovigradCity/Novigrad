@@ -3,7 +3,8 @@
     {
       "name": "Медь",
       "category": "vShopArmor",
-      "price": 1300,
+      "sell": 1300,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/copper.png",
         "/assets/VonderanShop/Броня/Поножи/copper.png",
@@ -14,7 +15,8 @@
     {
       "name": "Висмутовская Бронза",
       "category": "vShopArmor",
-      "price": 1800,
+      "sell": 1800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/bismuth_bronze.png",
         "/assets/VonderanShop/Броня/Поножи/bismuth_bronze.png",
@@ -25,7 +27,8 @@
     {
       "name": "Бронза",
       "category": "vShopArmor",
-      "price": 1800,
+      "sell": 1800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/bronze.png",
         "/assets/VonderanShop/Броня/Поножи/bronze.png",
@@ -36,7 +39,8 @@
     {
       "name": "Черная бронза",
       "category": "vShopArmor",
-      "price": 1800,
+      "sell": 1800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/black_bronze.png",
         "/assets/VonderanShop/Броня/Поножи/black_bronze.png",
@@ -47,7 +51,8 @@
     {
       "name": "Кованого Железа",
       "category": "vShopArmor",
-      "price": 2100,
+      "sell": 2100,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/wrought_iron.png",
         "/assets/VonderanShop/Броня/Поножи/wrought_iron.png",
@@ -58,7 +63,8 @@
     {
       "name": "Сталь",
       "category": "vShopArmor",
-      "price": 2750,
+      "sell": 2750,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/steel.png",
         "/assets/VonderanShop/Броня/Поножи/steel.png",
@@ -69,7 +75,8 @@
     {
       "name": "Черная сталь",
       "category": "vShopArmor",
-      "price": 5500,
+      "sell": 5500,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/black_steel.png",
         "/assets/VonderanShop/Броня/Поножи/black_steel.png",
@@ -80,7 +87,8 @@
     {
       "name": "Красная сталь",
       "category": "vShopArmor",
-      "price": 11000,
+      "sell": 11000,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/red_steel.png",
         "/assets/VonderanShop/Броня/Поножи/red_steel.png",
@@ -91,7 +99,8 @@
     {
       "name": "Синяя сталь",
       "category": "vShopArmor",
-      "price": 11000,
+      "sell": 11000,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/Ботинки/blue_steel.png",
         "/assets/VonderanShop/Броня/Поножи/blue_steel.png",
@@ -102,7 +111,8 @@
     {
       "name": "Медь",
       "category": "vShopArmorHorse",
-      "price": 940,
+      "sell": 940,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/copper.png"
       ]
@@ -110,7 +120,8 @@
     {
       "name": "Висмутовская Бронза",
       "category": "vShopArmorHorse",
-      "price": 990,
+      "sell": 990,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/bismuth_bronze.png"
       ]
@@ -118,7 +129,8 @@
     {
       "name": "Бронза",
       "category": "vShopArmorHorse",
-      "price": 1050,
+      "sell": 1050,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/bronze.png"
       ]
@@ -126,7 +138,8 @@
     {
       "name": "Чёрная Бронза",
       "category": "vShopArmorHorse",
-      "price": 1085,
+      "sell": 1085,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/black_bronze.png"
       ]
@@ -134,7 +147,8 @@
     {
       "name": "Кованное железо",
       "category": "vShopArmorHorse",
-      "price": 1070,
+      "sell": 1070,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/wrought_iron.png"
       ]
@@ -142,7 +156,8 @@
     {
       "name": "Стальная",
       "category": "vShopArmorHorse",
-      "price": 1310,
+      "sell": 1310,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/steel.png"
       ]
@@ -150,7 +165,8 @@
     {
       "name": "Чёрная сталь",
       "category": "vShopArmorHorse",
-      "price": 2175,
+      "sell": 2175,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/black_steel.png"
       ]
@@ -158,48 +174,18 @@
     {
       "name": "Цветная сталь",
       "category": "vShopArmorHorse",
-      "price": 3600,
+      "sell": 3600,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Броня/horse_armor/blue_steel.png",
         "/assets/VonderanShop/Броня/horse_armor/red_steel.png"
       ]
     },
     {
-      "name": "Рюкзак белый",
-      "category": "vShopAccessories",
-      "price": 600,
-      "icons": [
-        "/assets/VonderanShop/BackPack.png"
-      ]
-    },
-    {
-      "name": "Рюкзак цветной",
-      "category": "vShopAccessories",
-      "price": 700,
-      "icons": [
-        "/assets/VonderanShop/BackPack.png"
-      ]
-    },
-    {
-      "name": "Ящик",
-      "category": "vShopAccessories",
-      "price": 1700,
-      "icons": [
-        "/assets/VonderanShop/toolBox.png"
-      ]
-    },
-    {
-      "name": "Фляга",
-      "category": "vShopAccessories",
-      "price": 280,
-      "icons": [
-        "/assets/VonderanShop/iron_flask-0.png"
-      ]
-    },
-    {
       "name": "Кирка (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Кирка.png"
       ]
@@ -207,7 +193,8 @@
     {
       "name": "Кирка (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Кирка.png"
       ]
@@ -215,7 +202,8 @@
     {
       "name": "Кирка (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Кирка.png"
       ]
@@ -223,7 +211,8 @@
     {
       "name": "Кирка (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Кирка/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Кирка/red_steel.png"
@@ -232,7 +221,8 @@
     {
       "name": "Топор (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Топор.png"
       ]
@@ -240,7 +230,8 @@
     {
       "name": "Топор (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Топор.png"
       ]
@@ -248,7 +239,8 @@
     {
       "name": "Топор (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Топор.png"
       ]
@@ -256,7 +248,8 @@
     {
       "name": "Топор (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Топор/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Топор/red_steel.png"
@@ -265,7 +258,8 @@
     {
       "name": "Лопата (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Лопата.png"
       ]
@@ -273,7 +267,8 @@
     {
       "name": "Лопата (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Лопата.png"
       ]
@@ -281,7 +276,8 @@
     {
       "name": "Лопата (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Лопата.png"
       ]
@@ -289,7 +285,8 @@
     {
       "name": "Лопата (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Лопата/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Лопата/red_steel.png"
@@ -298,7 +295,8 @@
     {
       "name": "Зубило (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Чизель.png"
       ]
@@ -306,7 +304,8 @@
     {
       "name": "Зубило (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Чизель.png"
       ]
@@ -314,7 +313,8 @@
     {
       "name": "Зубило (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Чизель.png"
       ]
@@ -322,7 +322,8 @@
     {
       "name": "Зубило (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Чизель/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Чизель/red_steel.png"
@@ -331,7 +332,8 @@
     {
       "name": "Пила (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Пила.png"
       ]
@@ -339,7 +341,8 @@
     {
       "name": "Пила (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Пила.png"
       ]
@@ -347,7 +350,8 @@
     {
       "name": "Пила (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Пила.png"
       ]
@@ -355,7 +359,8 @@
     {
       "name": "Пила (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Пила/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Пила/red_steel.png"
@@ -364,7 +369,8 @@
     {
       "name": "Молот (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Молот.png"
       ]
@@ -372,7 +378,8 @@
     {
       "name": "Молот (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Молот.png"
       ]
@@ -380,7 +387,8 @@
     {
       "name": "Молот (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Молот.png"
       ]
@@ -388,7 +396,8 @@
     {
       "name": "Молот (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Молот/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Молот/red_steel.png"
@@ -397,7 +406,8 @@
     {
       "name": "Геологический молоток (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/ГеоМолот.png"
       ]
@@ -405,7 +415,8 @@
     {
       "name": "Геологический молоток (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/ГеоМолот.png"
       ]
@@ -413,7 +424,8 @@
     {
       "name": "Геологический молоток (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/ГеоМолот.png"
       ]
@@ -421,7 +433,8 @@
     {
       "name": "Геологический молоток (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/ГеоМолот/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/ГеоМолот/red_steel.png"
@@ -430,7 +443,8 @@
     {
       "name": "Нож (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Нож.png"
       ]
@@ -438,7 +452,8 @@
     {
       "name": "Нож (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Нож.png"
       ]
@@ -446,7 +461,8 @@
     {
       "name": "Нож (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Нож.png"
       ]
@@ -454,7 +470,8 @@
     {
       "name": "Нож (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Нож/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Нож/red_steel.png"
@@ -463,7 +480,8 @@
     {
       "name": "Коса (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Коса.png"
       ]
@@ -471,7 +489,8 @@
     {
       "name": "Коса (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Коса.png"
       ]
@@ -479,7 +498,8 @@
     {
       "name": "Коса (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Коса.png"
       ]
@@ -487,7 +507,8 @@
     {
       "name": "Коса (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Коса/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Коса/red_steel.png"
@@ -496,7 +517,8 @@
     {
       "name": "Мотыга (Медь)",
       "category": "vShopTools",
-      "price": 60,
+      "sell": 60,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Мотыга.png"
       ]
@@ -504,7 +526,8 @@
     {
       "name": "Мотыга (Сталь)",
       "category": "vShopTools",
-      "price": 250,
+      "sell": 250,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Мотыга.png"
       ]
@@ -512,7 +535,8 @@
     {
       "name": "Мотыга (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Мотыга.png"
       ]
@@ -520,7 +544,8 @@
     {
       "name": "Мотыга (Цветная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Мотыга/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Мотыга/red_steel.png"
@@ -529,7 +554,8 @@
     {
       "name": "Удочка (Медь)",
       "category": "vShopTools",
-      "price": 140,
+      "sell": 140,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Медь/Удочка.png"
       ]
@@ -537,7 +563,8 @@
     {
       "name": "Удочка (Сталь)",
       "category": "vShopTools",
-      "price": 450,
+      "sell": 450,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Сталь/Удочка.png"
       ]
@@ -545,7 +572,8 @@
     {
       "name": "Удочка (Чёрная сталь)",
       "category": "vShopTools",
-      "price": 800,
+      "sell": 800,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Черная сталь/Удочка.png"
       ]
@@ -553,7 +581,8 @@
     {
       "name": "Удочка (Цветная сталь)",
       "category": "vShopTools",
-      "price": 1500,
+      "sell": 1500,
+      "isSell": true,
       "icons": [
         "/assets/VonderanShop/Инструменты/Цветная сталь/Удочка/blue_steel.png",
         "/assets/VonderanShop/Инструменты/Цветная сталь/Удочка/red_steel.png"
@@ -563,7 +592,20 @@
   "categories": {
     "vShopArmor": "Сеты брони",
     "vShopArmorHorse": "Конская броня",
-    "vShopAccessories": "Аксессуары",
     "vShopTools": "Инструменты"
+  },
+  "categoryPriceLogic": {
+    "vShopArmor": {
+      "showSell": false,
+      "showAmount": false
+    },
+    "vShopArmorHorse": {
+      "showSell": false,
+      "showAmount": false
+    },
+    "vShopTools": {
+      "showSell": false,
+      "showAmount": false
+    }
   }
 }

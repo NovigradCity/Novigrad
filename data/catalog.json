@@ -1185,6 +1185,38 @@
       "isBuy": true,
       "isSell": false,
       "icon": "/assets/TFCTexture/Камни/Изысканыйdiamond.png"
+    },
+    {
+      "name": "Рюкзак белый",
+      "category": "plant",
+      "amount": 1,
+      "sell": 600,
+      "isSell": true,
+      "icon": "/assets/VonderanShop/BackPack.png"
+    },
+    {
+      "name": "Рюкзак цветной",
+      "category": "plant",
+      "amount": 1,
+      "sell": 700,
+      "isSell": true,
+      "icon": "/assets/VonderanShop/BackPack.png"
+    },
+    {
+      "name": "Ящик",
+      "category": "plant",
+      "amount": 1,
+      "sell": 1700,
+      "isSell": true,
+      "icon": "/assets/VonderanShop/toolBox.png"
+    },
+    {
+      "name": "Фляга",
+      "category": "plant",
+      "amount": 1,
+      "sell": 280,
+      "isSell": true,
+      "icon": "/assets/VonderanShop/iron_flask-0.png"
     }
   ],
   "categories": {

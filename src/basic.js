@@ -7,6 +7,21 @@ async function drawTables() {
     if (typeof document.tradeData === 'undefined') {
         data = await fetch('./data/catalog.json', {cache: "no-store"});
         data = await data.json();
+        let data2 = await fetch('./data/VonderanShop.json', {cache: "no-store"});
+        data2 = await data2.json();
+
+        data2.items.forEach(d2i => {
+            data.items.push(d2i);
+        })
+
+        for(let d2c in data2.categories){
+            data.categories[d2c] = data2.categories[d2c];
+        }
+
+        for(let d2l in data2.categoryPriceLogic){
+            data.categoryPriceLogic[d2l] = data2.categoryPriceLogic[d2l];
+        }
+
         document.tradeData = data;
         console.log(data);
     }
@@ -145,6 +160,11 @@ async function drawTables() {
         let rowIco = '';
         if (row.icon) {
             rowIco = `<img src="${row.icon}" width=24 height=24 alt='${row.name}'>`
+        }else if(row.icons){
+            rowIco = ``;
+            row.icons.forEach(ir => {
+                rowIco += `<img src="${ir}" width=24 height=24 alt='${row.name}'>`
+            })
         }
 
         let sell = row.buy;
@@ -215,7 +235,7 @@ async function drawTables() {
 
         tr.innerHTML = `
         <td class="value">${counter}</td>
-        <td style="width: 90px;">${rowIco}</td>
+        <td style="width: 120px;">${rowIco}</td>
         <td class="value">${row.name}</td>
         <td class="${isBuy} ${isBuyShow} value">${sell}</td>
         <td class="${isSell} ${isSellShow} value">${row.sell}</td>
@@ -238,12 +258,13 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.lastClacItem = {};
 
     await drawTables();
+    return 0;
 
     let data = await fetch('./data/VonderanShop.json', {cache: "no-store"});
     data = await data.json();
     console.log(data);
 
-    let trade = dqs('#vShop');
+    let trade = dqs('#trade');
     let isFirst = true;
     for (let iKey in data.categories) {
         let id = 'tradevShopTab_' + iKey;
@@ -255,10 +276,7 @@ document.addEventListener('DOMContentLoaded', async () => {
         tabButton.classList.add('value');
         tabButton.classList.add('text-white');
         tabButton.classList.add('rounded-0');
-        if (isFirst) {
-            tabButton.classList.add('active');
-            //isFirst = false;
-        }
+
         tabButton.id = id;
         tabButton.setAttribute('data-bs-toggle', 'tab')
         tabButton.setAttribute('data-bs-target', "#" + id + "Content")
@@ -266,14 +284,14 @@ document.addEventListener('DOMContentLoaded', async () => {
         tabButton.setAttribute('role', "tab")
         tabButton.innerText = data.categories[iKey];
         tabHead.append(tabButton);
-        dqs('#vShopTabs').append(tabHead);
+        dqs('#tradeTabs').append(tabHead);
 
         let block = document.createElement('div');
         block.classList.add('tab-pane');
         block.classList.add('fade');
         if (isFirst) {
-            block.classList.add('active');
-            block.classList.add('show');
+            //block.classList.add('active');
+            //block.classList.add('show');
             isFirst = false;
         }
         block.id = id + "Content";
@@ -285,7 +303,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         //tradeSelectCategory
         block.append(title);
-        dqs('#vShopTabsContainer').append(block)
+        dqs('#tradeTabsContainer').append(block)
         //trade.append(block);
 
         let table = document.createElement('table');
