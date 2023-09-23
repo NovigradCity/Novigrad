@@ -223,7 +223,7 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": 569,
+      "amount": 560,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -245,7 +245,7 @@
     {
       "name": "Цинк",
       "category": "ingot",
-      "amount": 344,
+      "amount": 338,
       "buy": 27,
       "sell": 32,
       "minPercent": 20,
@@ -256,7 +256,7 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": 429,
+      "amount": 375,
       "buy": 35,
       "sell": 45,
       "minPercent": 20,
@@ -289,7 +289,7 @@
     {
       "name": "Свинец",
       "category": "ingot",
-      "amount": 93,
+      "amount": 207,
       "buy": 75,
       "sell": 100,
       "minPercent": 20,
@@ -322,7 +322,7 @@
     {
       "name": "Латунь",
       "category": "ingot",
-      "amount": 32,
+      "amount": 92,
       "buy": 47,
       "sell": 60,
       "minPercent": 20,
@@ -333,7 +333,7 @@
     {
       "name": "Розовое золото",
       "category": "ingot",
-      "amount": 88,
+      "amount": 146,
       "buy": 63,
       "sell": 75,
       "minPercent": 20,
