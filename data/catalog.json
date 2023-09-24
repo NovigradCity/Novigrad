@@ -388,7 +388,7 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": 172,
+      "amount": 52,
       "buy": 50,
       "sell": 63,
       "minPercent": 20,
