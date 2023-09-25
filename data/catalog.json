@@ -1217,6 +1217,70 @@
       "sell": 280,
       "isSell": true,
       "icon": "/assets/VonderanShop/iron_flask-0.png"
+    },
+    {
+      "name": "Наковальня из меди",
+      "category": "plant",
+      "amount": 1,
+      "sell": 760,
+      "isSell": true,
+      "icon": "/assets/Anvils/Медь.png"
+    },
+    {
+      "name": "Наковальня из бронзы",
+      "category": "plant",
+      "amount": 1,
+      "sell": 1010,
+      "isSell": true,
+      "icon": "/assets/Anvils/Бронза.png"
+    },
+    {
+      "name": "Наковальня из висмутовой бронзы",
+      "category": "plant",
+      "amount": 1,
+      "sell": 880,
+      "isSell": true,
+      "icon": "/assets/Anvils/Висмут.png"
+    },
+    {
+      "name": "Наковальня из чёрной бронзы",
+      "category": "plant",
+      "amount": 1,
+      "sell": 1070,
+      "isSell": true,
+      "icon": "/assets/Anvils/ЧБ.png"
+    },
+    {
+      "name": "Наковальня из железа",
+      "category": "plant",
+      "amount": 1,
+      "sell": 1130,
+      "isSell": true,
+      "icon": "/assets/Anvils/Железо.png"
+    },
+    {
+      "name": "Наковальня из стали",
+      "category": "plant",
+      "amount": 1,
+      "sell": 1650,
+      "isSell": true,
+      "icon": "/assets/Anvils/Сталь.png"
+    },
+    {
+      "name": "Наковальня из чёрной стали",
+      "category": "plant",
+      "amount": 1,
+      "sell": 3675,
+      "isSell": true,
+      "icon": "/assets/Anvils/ЧС.png"
+    },
+    {
+      "name": "Наковальня из красной или синей стали",
+      "category": "plant",
+      "amount": 1,
+      "sell": 7000,
+      "isSell": true,
+      "icon": "/assets/Anvils/СС.png"
     }
   ],
   "categories": {
