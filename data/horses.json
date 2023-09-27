@@ -8,7 +8,7 @@
       "hp": 22,
       "color": "Тёмно-гнедая",
       "stable": "1.1",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -19,7 +19,7 @@
       "hp": 24,
       "color": "Тёмно-гнедая",
       "stable": "1.2",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -30,7 +30,7 @@
       "hp": 23,
       "color": "Тёмно-гнедая",
       "stable": "2.6",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "hp": 27,
       "color": "Тёмно-гнедая",
       "stable": "4.4",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -52,7 +52,7 @@
       "hp": 20,
       "color": "Светло-гнедая пегая",
       "stable": "1.3",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -63,7 +63,7 @@
       "hp": 20,
       "color": "Светло-гнедая",
       "stable": "1.6",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -74,7 +74,7 @@
       "hp": 23,
       "color": "Светло-гнедая",
       "stable": "2.1",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -85,7 +85,7 @@
       "hp": 24,
       "color": "Светло-гнедая чубарая",
       "stable": "2.3",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -96,7 +96,7 @@
       "hp": 20,
       "color": "Светло-гнедая пегая",
       "stable": "3.1",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -107,7 +107,7 @@
       "hp": 22,
       "color": "Светло-гнедая",
       "stable": "3.4",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -118,115 +118,103 @@
       "hp": 23,
       "color": "Светло-гнедая пегая",
       "stable": "4.3",
-      "cell": ,
+      "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 5",
+      "name": "Буланая 1": 0,
+      "speed": 7.1,
+      "jump": 1.75,
+      "hp": 22,
+      "color": "Буланая в яблоко",
+      "stable": "1.4",
+      "cell": 1,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Игреневая 1",
+      "basePrice": 0,
+      "speed": 8.25,
+      "jump": 2.75,
+      "hp": 23,
+      "color": "Игреневая пегая",
+      "stable": "2.4",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Игреневая 2",
+      "basePrice": 0,
+      "speed": 7.86,
+      "jump": 3.75,
+      "hp": 24,
+      "color": "Игреневая пегая",
+      "stable": "2.5",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Игреневая 3",
+      "basePrice": 0,
+      "speed": 8.7,
+      "jump": 4,
+      "hp": 27,
+      "color": "Игреневая в яблоко",
+      "stable": "3.3",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Белая 1",
       "basePrice": 0,
       "speed": 10.3,
       "jump": 3.75,
       "hp": 18,
-      "color": "Светло-гнедая",
+      "color": "Белая в яблоко",
       "stable": "Северо-западный",
       "cell": 4,
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 5",
+      "name": "Белая 2",
       "basePrice": 0,
       "speed": 10.3,
       "jump": 3.75,
       "hp": 18,
-      "color": "Светло-гнедая",
+      "color": "Белая в яблоко",
       "stable": "Северо-западный",
       "cell": 4,
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 5",
+      "name": "Белая 3",
       "basePrice": 0,
       "speed": 10.3,
       "jump": 3.75,
       "hp": 18,
-      "color": "Тёмно гнедая",
+      "color": "Белая",
       "stable": "Северо-западный",
       "cell": 4,
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 5",
+      "name": "Белая 4",
       "basePrice": 0,
       "speed": 10.3,
       "jump": 3.75,
       "hp": 18,
-      "color": "Тёмно гнедая",
+      "color": "Белая в яблоко",
       "stable": "Северо-западный",
       "cell": 4,
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 5",
+      "name": "Белая 5",
       "basePrice": 0,
       "speed": 10.3,
       "jump": 3.75,
       "hp": 18,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 4,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 5",
-      "basePrice": 0,
-      "speed": 10.3,
-      "jump": 3.75,
-      "hp": 18,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 4,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 5",
-      "basePrice": 0,
-      "speed": 10.3,
-      "jump": 3.75,
-      "hp": 18,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 4,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 5",
-      "basePrice": 0,
-      "speed": 10.3,
-      "jump": 3.75,
-      "hp": 18,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 4,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 5",
-      "basePrice": 0,
-      "speed": 10.3,
-      "jump": 3.75,
-      "hp": 18,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 4,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 5",
-      "basePrice": 0,
-      "speed": 10.3,
-      "jump": 3.75,
-      "hp": 18,
-      "color": "Тёмно гнедая",
+      "color": "Белая в яблоко",
       "stable": "Северо-западный",
       "cell": 4,
       "img": "./assets/horses/sc1.jpg"
