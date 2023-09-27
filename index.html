@@ -31,6 +31,10 @@
                     data-bs-target="#nav-calc" type="button" role="tab" aria-controls="nav-calc"
                     aria-selected="false">Торговля
             </button>
+            <button class="nav-link value text-white rounded-0" id="nav-horses-tab" data-bs-toggle="tab"
+                    data-bs-target="#nav-horses" type="button" role="tab" aria-controls="nav-horses"
+                    aria-selected="false">Автопарк
+            </button>
             <button class="nav-link value text-white rounded-0" id="nav-tituls-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-tituls" type="button" role="tab" aria-controls="nav-tituls"
                     aria-selected="false">Титулы города
@@ -292,29 +296,23 @@
                 </p>
             </div>
         </div>
+
+        <div class="tab-pane fade" id="nav-horses" role="tabpanel" aria-labelledby="nav-horses-tab">
+            <div class="block m-3 p-2">
+                <p>
+                    <span style="color: red">РАЗДЕЛ НАХОДИТСЯ В РАЗРАБОТКЕ</span><br>
+                    В городе вы можете приобрести лошадей.<br>
+                    Есть Х загонов<br>
+                    И какой то в общем текст...
+                </p>
+            </div>
+
+            <div class="row m-1" id="horsesCards">
+
+            </div>
+        </div>
     </div>
+
 </div>
 </body>
 </html>
-
-<script defer>
-    fetch('./data/screens.json', {cache: "no-store"})
-        .then(data => data.json())
-        .then(data => {
-            let last = data[data.length - 1];
-            document.querySelector('body').style.backgroundImage = "url(.." + last + ")";
-            data = data.reverse();
-
-            let divScreens = document.querySelector('#cityScreens');
-            data.forEach((screen, i) => {
-                //if(i<data.length) {
-                let img = document.createElement('img');
-                img.src = screen;
-                img.style.maxWidth = '100%';
-                img.style.marginBottom = '10px';
-                img.alt = 'Изображение города';
-                divScreens.append(img);
-                //}
-            })
-        })
-</script>

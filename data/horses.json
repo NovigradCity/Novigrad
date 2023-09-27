@@ -1,0 +1,121 @@
+{
+  "horses": [
+    {
+      "name": "Test",
+      "basePrice": 0,
+      "speed": 10,
+      "jump": 2.75,
+      "hp": 25,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 3,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 2",
+      "basePrice": 0,
+      "speed": 7,
+      "jump": 3.75,
+      "hp": 20,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 3",
+      "basePrice": 0,
+      "speed": 9,
+      "jump": 2.25,
+      "hp": 23,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 4",
+      "basePrice": 0,
+      "speed": 12,
+      "jump": 5,
+      "hp": 30,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 5",
+      "basePrice": 0,
+      "speed": 9.68,
+      "jump": 3.5,
+      "hp": 21,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 6",
+      "basePrice": 0,
+      "speed": 7.2,
+      "jump": 2.75,
+      "hp": 22,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 7",
+      "basePrice": 0,
+      "speed": 9.7,
+      "jump": 3.25,
+      "hp": 21,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 8",
+      "basePrice": 0,
+      "speed": 8.3,
+      "jump": 2.75,
+      "hp": 24,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "name": "Test 8",
+      "basePrice": 0,
+      "speed": 10.3,
+      "jump": 3.75,
+      "hp": 18,
+      "color": "Тёмно гнедая",
+      "stable": "Северо-западный",
+      "cell": 4,
+      "img": "./assets/horses/sc1.jpg"
+    }
+  ],
+  "hpMatrix": {
+    "15": 100,
+    "16": 330,
+    "17": 660,
+    "18": 1000,
+    "19": 1330,
+    "20": 1660,
+    "21": 2000,
+    "22": 2330,
+    "23": 2660,
+    "24": 3000,
+    "25": 3330,
+    "26": 3660,
+    "27": 4000,
+    "28": 4330,
+    "29": 4660,
+    "30": 5000
+  }
+}
