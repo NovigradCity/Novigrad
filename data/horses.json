@@ -1,7 +1,7 @@
 {
   "horses": [
     {
-      "name": "1",
+      "name": "Тёмно-гнедая 1",
       "basePrice": 0,
       "speed": 7.7,
       "jump": 3.5,
@@ -12,7 +12,7 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "2",
+      "name": "Тёмно-гнедая 2",
       "basePrice": 0,
       "speed": 7,
       "jump": 2.75,
@@ -23,7 +23,7 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "3",
+      "name": "Тёмно-гнедая 3",
       "basePrice": 0,
       "speed": 8.26,
       "jump": 2.75,
@@ -34,7 +34,7 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "4",
+      "name": "Тёмно-гнедая 4",
       "basePrice": 0,
       "speed": 6.15,
       "jump": 2.25,
