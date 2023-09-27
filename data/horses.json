@@ -122,7 +122,8 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Буланая 1": 0,
+      "name": "Буланая 1",
+      "basePrice": 0,
       "speed": 7.1,
       "jump": 1.75,
       "hp": 22,
