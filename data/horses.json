@@ -1,14 +1,14 @@
 {
   "horses": [
     {
-      "name": "Test",
+      "name": "1",
       "basePrice": 0,
-      "speed": 10,
-      "jump": 2.75,
-      "hp": 25,
-      "color": "Тёмно гнедая",
-      "stable": "Северо-западный",
-      "cell": 3,
+      "speed": 7.7,
+      "jump": 3.5,
+      "hp": 22,
+      "color": "Тёмно-гнедая",
+      "stable": "1.1",
+      "cell": ,
       "img": "./assets/horses/sc1.jpg"
     },
     {
