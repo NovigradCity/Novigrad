@@ -1,4 +1,4 @@
-body{
+body {
     background-attachment: fixed;
     /*background-image: url(../assets/bg.png);*/
     overflow-y: scroll;
@@ -6,54 +6,83 @@ body{
     background-position: center;
 }
 
-.backdrop{
+.backdrop {
     backdrop-filter: blur(10px) brightness(0.9);
 }
 
-table{
+table {
     background: rgba(255, 255, 255, 0.73);
 }
 
-.block{
+.block {
     background: rgba(255, 255, 255, 0.73);
 }
 
-.value{
-    text-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+.value {
+    text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.3);
 }
 
-.value-l{
+.value-l {
     text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.3);
 }
 
-.nav-link.active{
-    color: black!important;
+.nav-link.active {
+    color: black !important;
 }
 
-.text-rang-1{
+.text-rang-1 {
     color: #259925;
 }
 
-.text-rang-2{
+.text-rang-2 {
     color: #009999;
 }
 
-.text-rang-3{
+.text-rang-3 {
     color: #0070C0;
 }
 
-.text-rang-4{
+.text-rang-4 {
     color: #CC00FF;
 }
 
-.text-rang-5{
+.text-rang-5 {
     color: #d38f14;
 }
 
-.text-rang-6{
+.text-rang-6 {
     color: #FF6600;
 }
 
-.text-rang-7{
+.text-rang-7 {
     color: #db0011;
+}
+
+#pagePreloader {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: #ffffff;
+    z-index: 9999;
+    text-align: center;
+    opacity: 0.8;
+    padding: 20px;
+}
+
+#pagePreloader:not(.activeLoader) {
+    transition: .5s ease;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.activeLoaderMain {
+    filter: blur(5px);
+    transition: .1s ease;
+}
+
+#mainContainer:not(.activeLoaderMain) {
+    filter: blur(0px);
+    transition: .5s ease;
 }

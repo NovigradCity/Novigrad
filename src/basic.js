@@ -30,6 +30,8 @@ async function drawTables(sort = null) {
         console.log(data);
     }
 
+    document.needLoad.tables = true;
+
     let trade = dqs('#trade');
     let isFirst = true;
 
@@ -269,6 +271,7 @@ async function loadHorses() {
         data = document.horses;
     }
     dqs('#horsesCards').innerHTML = '';
+    document.needLoad.horses = true;
 
     //horsesCards
     data.horses.forEach((horse, index) => {
@@ -385,8 +388,16 @@ async function loadBG(){
                 img.style.maxWidth = '100%';
                 img.style.marginBottom = '10px';
                 img.alt = 'Изображение города';
+                img.onerror = () => {
+                    document.imgsLoaded += 1;
+                }
+                img.onload = () => {
+                    document.imgsLoaded += 1;
+                }
                 divScreens.append(img);
+                document.imgsTotal +=1;
             })
+            document.needLoad.bg = true;
         })
 }
 
@@ -409,8 +420,36 @@ document.addEventListener('DOMContentLoaded', async () => {
     document.basket = [];
     document.lastClacItem = {};
     document.lastSort = null;
+    document.loaded = false;
+    document.needLoad = {bg: false, tables: false, horses: false, imgs: false};
+    document.imgsTotal = 0;
+    document.imgsLoaded = 0;
+
+    setTimeout(function loadTick(){
+        let isLoad = true;
+        for(let iKey in document.needLoad){
+            if(document.needLoad[iKey] === false){
+                isLoad = false;
+            }
+            if(document.imgsTotal > document.imgsLoaded){
+                isLoad = false;
+            }else{
+                document.needLoad.imgs = true;
+            }
+        }
+        if(!isLoad){
+            setTimeout(loadTick, 2000);
+        }else{
+            dqs('#pagePreloader').classList.remove('activeLoader');
+            dqs('#mainContainer').classList.remove('activeLoaderMain');
+        }
+    }, 2000);
 
     await loadBG();
     await drawTables();
     await loadHorses();
+
+    dqsa('.choices').forEach(e => {
+        const choices = new Choices(e);
+    })
 })
