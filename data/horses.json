@@ -45,17 +45,6 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 1",
-      "basePrice": 0,
-      "speed": 7.53,
-      "jump": 3.25,
-      "hp": 20,
-      "color": "Светло-гнедая",
-      "stable": "1.6",
-      "cell": 1,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
       "name": "Светло-гнедая 2",
       "basePrice": 0,
       "speed": 8.4,
@@ -63,17 +52,6 @@
       "hp": 23,
       "color": "Светло-гнедая",
       "stable": "2.1",
-      "cell": 1,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Светло-гнедая 4",
-      "basePrice": 0,
-      "speed": 8.12,
-      "jump": 3,
-      "hp": 20,
-      "color": "Светло-гнедая пегая",
-      "stable": "3.1",
       "cell": 1,
       "img": "./assets/horses/sc1.jpg"
     },
@@ -144,17 +122,6 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Белая 1",
-      "basePrice": 0,
-      "speed": 7.2,
-      "jump": 2.75,
-      "hp": 22,
-      "color": "Белая в яблоко",
-      "stable": "1",
-      "cell": 5,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
       "name": "Белая 2",
       "basePrice": 0,
       "speed": 7.95,
@@ -174,17 +141,6 @@
       "color": "Белая",
       "stable": "4",
       "cell": 1,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "name": "Белая 4",
-      "basePrice": 0,
-      "speed": 7.5,
-      "jump": 3.5,
-      "hp": 20,
-      "color": "Белая в яблоко",
-      "stable": "4",
-      "cell": 5,
       "img": "./assets/horses/sc1.jpg"
     },
     {
