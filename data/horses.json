@@ -67,17 +67,6 @@
       "img": "./assets/horses/sc1.jpg"
     },
     {
-      "name": "Светло-гнедая 3",
-      "basePrice": 0,
-      "speed": 6.9,
-      "jump": 3.5,
-      "hp": 24,
-      "color": "Светло-гнедая чубарая",
-      "stable": "2.3",
-      "cell": 1,
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
       "name": "Светло-гнедая 4",
       "basePrice": 0,
       "speed": 8.12,
