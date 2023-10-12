@@ -261,11 +261,38 @@ async function drawTables(sort = null) {
 
 async function loadHorses() {
     let data = [];
-    data = await fetch('./data/horses.json', {cache: "no-store"});
-    data = await data.json();
+    if (typeof document.horses === 'undefined') {
+        data = await fetch('./data/horses.json', {cache: "no-store"});
+        data = await data.json();
+        document.horses = data;
+    }else{
+        data = document.horses;
+    }
+    dqs('#horsesCards').innerHTML = '';
 
     //horsesCards
     data.horses.forEach((horse, index) => {
+
+        let color = dqs('#selectColor').value;
+        let skin = dqs('#selectSkin').value;
+
+        //console.log(color, horse.color, skin, horse.skin)
+
+        if(color !== 'Любая'){
+            if(horse.color.toLowerCase() !== color.toLowerCase())
+                return;
+        }
+
+        if(skin !== 'Любая'){
+            if(skin === 'Чистая'){
+                if(horse.skin !== ''){
+                    return;
+                }
+            }else {
+                if (horse.skin.toLowerCase() !== skin.toLowerCase())
+                    return;
+            }
+        }
 
         let price = horse.basePrice;
         let tmpSpeed = 0;
