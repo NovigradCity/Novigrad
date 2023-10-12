@@ -318,7 +318,7 @@
 
             <div class="block m-3 p-2">
                 <span>Фильтр</span>
-                <div class="row">
+                <div class="row" style="margin-bottom: 5px;">
                     <div class="col-lg-3 col-md-12">
                         <span>Масть:</span>
                         <div>
@@ -348,7 +348,31 @@
                             </select>
                         </div>
                     </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <span>Характеристика:</span>
+                        <div>
+                            <select id="selectParam" onchange="loadHorses()" class="choices">
+                                <option selected>Не имеет значение</option>
+                                <option>Скорость</option>
+                                <option>Прыжок</option>
+                                <option>Здоровье</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-12">
+                        <span>Цена (в начале):</span>
+                        <div>
+                            <select id="selectPrice" onchange="loadHorses()" class="choices">
+                                <option selected>Не имеет значение</option>
+                                <option>Дороже</option>
+                                <option>Дешевле</option>
+                            </select>
+                        </div>
+                    </div>
                 </div>
+                <span style="color: red">Приоритет по цене выше приоритета характеристики, по этому выбирайте что-то одно.</span>
             </div>
 
             <div class="row m-1" id="horsesCards">

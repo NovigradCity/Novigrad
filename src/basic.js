@@ -273,13 +273,41 @@ async function loadHorses() {
     dqs('#horsesCards').innerHTML = '';
     document.needLoad.horses = true;
 
+    let drawData = Object.assign([], data.horses);
+
+    let sortParam = dqs('#selectParam').value;
+    let sortPrice = dqs('#selectPrice').value;
+
+    if(sortParam !== 'Не имеет значение'){
+        if(sortParam === 'Здоровье'){
+            drawData = drawData.sort((a,b) => b.hp - a.hp);
+        }
+        if(sortParam === 'Скорость'){
+            drawData = drawData.sort((a,b) => b.speed - a.speed);
+        }
+        if(sortParam === 'Прыжок'){
+            drawData = drawData.sort((a,b) => b.jump - a.jump);
+        }
+    }
+
+    let needSort = false;
+    let sortType = null;
+    if(sortPrice !== 'Не имеет значение'){
+        if(sortPrice === 'Дороже'){
+            needSort = true;
+            sortType = 'desc';
+        }
+        if(sortPrice === 'Дешевле'){
+            needSort = true;
+            sortType = 'asc';
+        }
+    }
+
     //horsesCards
-    data.horses.forEach((horse, index) => {
+    drawData.forEach((horse, index) => {
 
         let color = dqs('#selectColor').value;
         let skin = dqs('#selectSkin').value;
-
-        //console.log(color, horse.color, skin, horse.skin)
 
         if(color !== 'Любая'){
             if(horse.color.toLowerCase() !== color.toLowerCase())
@@ -338,8 +366,19 @@ async function loadHorses() {
         //price +=
 
         let name = horse.color + ((horse.skin !== '') ? " " + horse.skin : '');
+
+        let sortStyle = '';
+        if(needSort){
+            if(sortType === 'asc'){
+                sortStyle = `order: ${price};`
+            }
+            if(sortType === 'desc'){
+                sortStyle = `order: ${price*-1};`
+            }
+        }
+
         let html = `
-        <div class="col-xs-12 col-sm-6 col-lg-4 mb-2">
+        <div class="col-xs-12 col-sm-6 col-lg-4 mb-2" style="${sortStyle}">
             <div class="card">
                 <img src="./assets/horses/${name}.jpg" onerror="this.src='./assets/horses/sc1.jpg'" class="card-img-top" alt="${name}">
                 <div class="card-body">
@@ -450,6 +489,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     await loadHorses();
 
     dqsa('.choices').forEach(e => {
-        const choices = new Choices(e);
+        const choices = new Choices(e, {shouldSort: false});
     })
 })
