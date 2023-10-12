@@ -238,12 +238,12 @@ async function drawTables(sort = null) {
         }
 
         tr.innerHTML = `
-        <td class="value">${counter}</td>
-        <td style="width: 120px;">${rowIco}</td>
-        <td class="value">${row.name}</td>
-        <td class="${isBuy} ${isBuyShow} value">${sell}</td>
-        <td class="${isSell} ${isSellShow} value">${row.sell}</td>
-        <td class="value ${isAmountShow}">${row.amount}</td>
+        <td><span class="value">${counter}</span></td>
+        <td><span style="width: 120px;">${rowIco}</span></td>
+        <td><span class="value">${row.name}</span></td>
+        <td><span class="${isBuy} ${isBuyShow} value">${sell}</span></td>
+        <td><span class="${isSell} ${isSellShow} value">${row.sell}</span></td>
+        <td><span class="value ${isAmountShow}">${row.amount}</span></td>
         `
         dqs('#' + row.category).append(tr);
         counter++;
@@ -369,11 +369,13 @@ function sortHandler(event){
 }
 
 async function prepareSort(){
-    let sortColumns = dqsa('.sortable:not(.init)');
-    sortColumns.forEach( coll => {
-        coll.addEventListener('click', sortHandler.bind(coll))
-        coll.classList.add('init');
-    });
+    document.querySelectorAll('table').forEach(e => {
+        var datatable = new DataTable(e, {
+            sort: [true, false, true, true, true, true],
+            filters: [false, false, 'input'],
+            filterText: 'Type to filter... ',
+        });
+    })
 }
 
 document.addEventListener('DOMContentLoaded', async () => {
