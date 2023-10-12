@@ -16,6 +16,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
             integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
             crossorigin="anonymous"></script>
+
+    <link href="./src/choices.min.css" type="text/css" rel="stylesheet">
+    <link href="./src/datatable.min.css" type="text/css" rel="stylesheet">
+
+    <script src="./src/choices.min.js"></script>
+    <script src="./src/datatable.min.js"></script>
 </head>
 
 <body>
@@ -33,7 +39,7 @@
             </button>
             <button class="nav-link value text-white rounded-0" id="nav-horses-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-horses" type="button" role="tab" aria-controls="nav-horses"
-                    aria-selected="false">Автопарк
+                    aria-selected="false">Лошади
             </button>
             <button class="nav-link value text-white rounded-0" id="nav-tituls-tab" data-bs-toggle="tab"
                     data-bs-target="#nav-tituls" type="button" role="tab" aria-controls="nav-tituls"
@@ -299,12 +305,40 @@
 
         <div class="tab-pane fade" id="nav-horses" role="tabpanel" aria-labelledby="nav-horses-tab">
             <div class="block m-3 p-2">
-                <p>
-                    <span style="color: red">РАЗДЕЛ НАХОДИТСЯ В РАЗРАБОТКЕ</span><br>
-                    В городе вы можете приобрести лошадей.<br>
-                    Есть Х загонов<br>
-                    И какой то в общем текст...
-                </p>
+                <span style="color: red">РАЗДЕЛ НАХОДИТСЯ В РАЗРАБОТКЕ</span>
+            </div>
+
+            <div class="block m-3 p-2">
+                <span>Фильтр</span>
+                <div class="row">
+                    <div class="col-6">
+                        <span>Масть:</span>
+                        <div style="max-width: 250px; !important;">
+                            <select class="choices" style="max-width: 250px; !important;">
+                                <option>Вороная</option>
+                                <option>Тёмно-гнедая</option>
+                                <option>Светло-гнедая</option>
+                                <option>Игреневая</option>
+                                <option>Буланая</option>
+                                <option>Серая</option>
+                                <option>Белая</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="col-6">
+                        <span>Окрас:</span>
+                        <div style="max-width: 250px; !important;">
+                            <select class="choices">
+                                <option>Чистая</option>
+                                <option>Пегая</option>
+                                <option>В яблоко</option>
+                                <option>Чубарая</option>
+                                <option>Чепрачная</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <div class="row m-1" id="horsesCards">
@@ -315,4 +349,13 @@
 
 </div>
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        dqsa('.choices').forEach(e => {
+            const choices = new Choices(e);
+        })
+    })
+</script>
+
 </html>

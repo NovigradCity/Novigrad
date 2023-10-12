@@ -265,7 +265,7 @@ async function loadHorses() {
     data = await data.json();
 
     //horsesCards
-    data.horses.forEach(horse => {
+    data.horses.forEach((horse, index) => {
 
         let price = horse.basePrice;
         let tmpSpeed = 0;
@@ -307,14 +307,15 @@ async function loadHorses() {
         //price += horse.jump / 0.25 * 100;
         //price +=
 
+        let name = horse.color + ((horse.skin !== '') ? " " + horse.skin : '');
         let html = `
         <div class="col-xs-12 col-sm-6 col-lg-4 mb-2">
             <div class="card">
-                <img src="${horse.img}" class="card-img-top" alt="${horse.name}">
+                <img src="./assets/horses/${name}.jpg" onerror="this.src='./assets/horses/sc1.jpg'" class="card-img-top" alt="${name}">
                 <div class="card-body">
-                  <h5 class="card-title">${horse.name}</h5>
+                  <h5 class="card-title">${name} #${index+1}</h5>
                   <p class="card-text mb-0">
-                    ${horse.color} лошадь, находится в ${horse.stable} загон.<br>
+                    Находится в стойле ${horse.stable}.<br>
                     </p>
                     <div class="row">
                     <div class="col-1"><img width="16" src="./assets/horses/speed.png"></div>
