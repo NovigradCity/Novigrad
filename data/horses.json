@@ -249,7 +249,7 @@
       "skin": "в яблоко",
       "stable": "5.2",
       "img": "./assets/horses/sc1.jpg"
-    },
+    }
   ],
   "hpMatrix": {
     "15": 100,
