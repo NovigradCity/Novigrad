@@ -32,16 +32,6 @@
     },
     {
       "basePrice": 0,
-      "speed": 6.15,
-      "jump": 2.25,
-      "hp": 27,
-      "color": "Тёмно-гнедая",
-      "skin": "",
-      "stable": "4.4",
-      "img": "./assets/horses/sc1.jpg"
-    },
-    {
-      "basePrice": 0,
       "speed": 8.4,
       "jump": 3.5,
       "hp": 23,
