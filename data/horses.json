@@ -52,7 +52,7 @@
       "stable": "5.3",
       "img": "./assets/horses/sc1.jpg"
     },
-    // Светло-гнедые ======================
+  // Светло-гнедые ========================
     {
       "basePrice": 0,
       "speed": 10.06,
@@ -133,6 +133,7 @@
       "stable": "5.5",
       "img": "./assets/horses/sc1.jpg"
     },
+  // Буланые ===============================
     {
       "basePrice": 0,
       "speed": 7.1,
@@ -143,6 +144,17 @@
       "stable": "1.4",
       "img": "./assets/horses/sc1.jpg"
     },
+    {
+      "basePrice": 0,
+      "speed": 9.52,
+      "jump": 2.75,
+      "hp": 23,
+      "color": "Буланая",
+      "skin": "в яблоко",
+      "stable": "5.4",
+      "img": "./assets/horses/sc1.jpg"
+    },
+  // Игреневые ============================
     {
       "basePrice": 0,
       "speed": 8.25,
@@ -171,6 +183,28 @@
       "color": "Игреневая",
       "skin": "в яблоко",
       "stable": "3.3",
+      "img": "./assets/horses/sc1.jpg"
+    },
+  // Серые ================================
+    {
+      "basePrice": 0,
+      "speed": 7.9,
+      "jump": 2,
+      "hp": 21,
+      "color": "Серая",
+      "skin": "",
+      "stable": "3.6",
+      "img": "./assets/horses/sc1.jpg"
+    },
+  // Белые ================================
+    {
+      "basePrice": 0,
+      "speed": 8.38,
+      "jump": 2.75,
+      "hp": 23,
+      "color": "Белая",
+      "skin": "в яблоко",
+      "stable": "3.1",
       "img": "./assets/horses/sc1.jpg"
     },
     {
@@ -202,7 +236,17 @@
       "skin": "в яблоко",
       "stable": "4.6",
       "img": "./assets/horses/sc1.jpg"
-    }
+    }, 
+    {
+      "basePrice": 0,
+      "speed": 8.8,
+      "jump": 3.75,
+      "hp": 24,
+      "color": "Белая",
+      "skin": "в яблоко",
+      "stable": "5.2",
+      "img": "./assets/horses/sc1.jpg"
+    },
   ],
   "hpMatrix": {
     "15": 100,
