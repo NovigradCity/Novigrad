@@ -143,6 +143,16 @@
       "skin": "в яблоко",
       "stable": "1.4",
       "img": "./assets/horses/sc1.jpg"
+    }, 
+    {
+      "basePrice": 0,
+      "speed": 8.68,
+      "jump": 3.25,
+      "hp": 23,
+      "color": "Буланая",
+      "skin": "в яблоко",
+      "stable": "1.5",
+      "img": "./assets/horses/sc1.jpg"
     },
     {
       "basePrice": 0,
