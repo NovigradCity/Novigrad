@@ -32,7 +32,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.26,
+      "speed": 9.13,
       "jump": 2.75,
       "hp": 23,
       "color": "Тёмно-гнедая",
@@ -190,7 +190,7 @@
     
     {
       "basePrice": 0,
-      "speed": 7.9,
+      "speed": 8.85,
       "jump": 2,
       "hp": 21,
       "color": "Серая",
