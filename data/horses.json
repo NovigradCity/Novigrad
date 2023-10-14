@@ -2,7 +2,7 @@
   "horses": [
     {
       "basePrice": 0,
-      "speed": 7.7,
+      "speed": 8.5,
       "jump": 3.5,
       "hp": 22,
       "color": "Тёмно-гнедая",
@@ -12,7 +12,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 7,
+      "speed": 7.72,
       "jump": 2.75,
       "hp": 24,
       "color": "Тёмно-гнедая",
@@ -22,7 +22,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.4,
+      "speed": 9.24,
       "jump": 3,
       "hp": 22,
       "color": "Тёмно-гнедая",
@@ -136,7 +136,7 @@
     
     {
       "basePrice": 0,
-      "speed": 7.1,
+      "speed": 7.9,
       "jump": 1.75,
       "hp": 22,
       "color": "Буланая",
