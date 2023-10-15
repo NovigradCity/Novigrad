@@ -337,7 +337,7 @@ async function loadHorses() {
             priceForSpeed = 400;
         }else{
             tmpSpeed = tmpSpeed - 7.5;
-            priceForSpeed = Math.floor((tmpSpeed / 0.5 ) * 600) + 400;
+            priceForSpeed = Math.floor((tmpSpeed / 0.5 + 1) * 600) + 400;
             price += priceForSpeed;
         }
 
