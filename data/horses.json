@@ -218,6 +218,16 @@
       "stable": "3.6",
       "img": "./assets/horses/sc1.jpg"
     },
+    {
+      "basePrice": 0,
+      "speed": 9.62,
+      "jump": 3.25,
+      "hp": 21,
+      "color": "Серая",
+      "skin": "",
+      "stable": "4.2",
+      "img": "./assets/horses/sc1.jpg"
+    },
 
     
     {
