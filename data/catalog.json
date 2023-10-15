@@ -223,7 +223,7 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": 560,
+      "amount": 300,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -245,7 +245,7 @@
     {
       "name": "Цинк",
       "category": "ingot",
-      "amount": 338,
+      "amount": 300,
       "buy": 27,
       "sell": 32,
       "minPercent": 20,
