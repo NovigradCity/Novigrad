@@ -188,9 +188,9 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.74,
-      "jump": 3.75,
-      "hp": 24,
+      "speed": 10.61,
+      "jump": 3.25,
+      "hp": 22,
       "color": "Игреневая",
       "skin": "пегая",
       "stable": "2.5",
@@ -204,6 +204,16 @@
       "color": "Игреневая",
       "skin": "в яблоко",
       "stable": "3.3",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 11.23,
+      "jump": 3.25,
+      "hp": 20,
+      "color": "Игреневая",
+      "skin": "в яблоко",
+      "stable": "4.4",
       "img": "./assets/horses/sc1.jpg"
     },
 
