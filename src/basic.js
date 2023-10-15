@@ -333,30 +333,25 @@ async function loadHorses() {
         let priceForHP = 0;
         let tmpJump = 0;
         if(horse.speed <= 7.5){
-            price += 1900;
-            priceForSpeed = 1900;
+            price += 400;
+            priceForSpeed = 400;
         }else{
             tmpSpeed = tmpSpeed - 7.5;
-            priceForSpeed = Math.floor((tmpSpeed / 0.5) * 1100);
+            priceForSpeed = Math.floor((tmpSpeed / 0.5 ) * 600) + 400;
             price += priceForSpeed;
         }
 
-        if(horse.jump <= 2.25){
-            tmpJump = horse.jump - 0.75;
-            priceForJump = Math.floor((tmpJump / 0.25) * 100);
-            price += priceForJump;
-        }else if(horse.jump > 2.25 && horse.jump < 4.75){
-            priceForJump = 600;
-            priceForJump += Math.floor((horse.jump - 2.25) / 0.25 * 200);
+        if(horse.jump <= 1.25){
+            priceForJump = 90;
             price += priceForJump;
         }else{
-            priceForJump = 2000;
-            priceForJump += Math.floor((horse.jump - 4.75) / 0.25 * 200);
+            priceForJump = Math.floor(((horse.jump - 1.25) / 0.25) * 65) + 90;
             price += priceForJump;
         }
 
+
         if(horse.hp <= 15){
-            priceForHP = 100;
+            priceForHP = 200;
             price += priceForHP;
         }else if(horse.hp > 15){
             priceForHP = data.hpMatrix[horse.hp.toString()];
