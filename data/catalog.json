@@ -223,7 +223,7 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": 300,
+      "amount": 432,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -366,7 +366,7 @@
     {
       "name": "Черная бронза",
       "category": "ingot",
-      "amount": 56,
+      "amount": 248,
       "buy": 53,
       "sell": 65,
       "minPercent": 20,
@@ -756,7 +756,7 @@
     {
       "name": "Кожа",
       "category": "other",
-      "amount": 1287,
+      "amount": 1162,
       "sell": 60,
       "buy": 40,
       "minPercent": 20,
