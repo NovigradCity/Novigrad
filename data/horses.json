@@ -2,7 +2,7 @@
   "horses": [
     {
       "basePrice": 0,
-      "speed": 7.7,
+      "speed": 8.5,
       "jump": 3.5,
       "hp": 22,
       "color": "Тёмно-гнедая",
@@ -12,7 +12,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 7,
+      "speed": 7.72,
       "jump": 2.75,
       "hp": 24,
       "color": "Тёмно-гнедая",
@@ -22,7 +22,17 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.26,
+      "speed": 9.24,
+      "jump": 3,
+      "hp": 22,
+      "color": "Тёмно-гнедая",
+      "skin": "",
+      "stable": "2.3",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 9.13,
       "jump": 2.75,
       "hp": 23,
       "color": "Тёмно-гнедая",
@@ -32,18 +42,30 @@
     },
     {
       "basePrice": 0,
-      "speed": 6.15,
-      "jump": 2.25,
-      "hp": 27,
+      "speed": 9.41,
+      "jump": 1.25,
+      "hp": 26,
       "color": "Тёмно-гнедая",
-      "skin": "",
-      "stable": "4.4",
+      "skin": "в яблоко",
+      "stable": "5.3",
+      "img": "./assets/horses/sc1.jpg"
+    },
+
+    
+    {
+      "basePrice": 0,
+      "speed": 10.06,
+      "jump": 3.25,
+      "hp": 23,
+      "color": "Светло-гнедая",
+      "skin": "пегая",
+      "stable": "1.6",
       "img": "./assets/horses/sc1.jpg"
     },
     {
       "basePrice": 0,
-      "speed": 8.4,
-      "jump": 3.5,
+      "speed": 10.08,
+      "jump": 3.25,
       "hp": 23,
       "color": "Светло-гнедая",
       "skin": "",
@@ -52,9 +74,9 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.53,
-      "jump": 3.5,
-      "hp": 22,
+      "speed": 11.08,
+      "jump": 3.25,
+      "hp": 19,
       "color": "Светло-гнедая",
       "skin": "",
       "stable": "3.4",
@@ -62,9 +84,19 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.65,
-      "jump": 3,
-      "hp": 23,
+      "speed": 10.2,
+      "jump": 3.25,
+      "hp": 21,
+      "color": "Светло-гнедая",
+      "skin": "пегая",
+      "stable": "3.5",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 10.68,
+      "jump": 3.25,
+      "hp": 20,
       "color": "Светло-гнедая",
       "skin": "пегая",
       "stable": "4.3",
@@ -72,29 +104,73 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.53,
-      "jump": 3.5,
+      "speed": 10.12,
+      "jump": 3.25,
       "hp": 22,
       "color": "Светло-гнедая",
-      "skin": "",
-      "stable": "3.4",
+      "skin": "пегая",
+      "stable": "5.1",
       "img": "./assets/horses/sc1.jpg"
     },
     {
       "basePrice": 0,
-      "speed": 7.1,
+      "speed": 10.04,
+      "jump": 3,
+      "hp": 26,
+      "color": "Светло-гнедая",
+      "skin": "",
+      "stable": "5.5",
+      "img": "./assets/horses/sc1.jpg"
+    },
+
+    
+    {
+      "basePrice": 0,
+      "speed": 7.9,
       "jump": 1.75,
       "hp": 22,
       "color": "Буланая",
       "skin": "в яблоко",
       "stable": "1.4",
       "img": "./assets/horses/sc1.jpg"
+    }, 
+    {
+      "basePrice": 0,
+      "speed": 8.68,
+      "jump": 3.25,
+      "hp": 23,
+      "color": "Буланая",
+      "skin": "в яблоко",
+      "stable": "1.5",
+      "img": "./assets/horses/sc1.jpg"
     },
     {
       "basePrice": 0,
-      "speed": 8.25,
+      "speed": 10.33,
       "jump": 2.75,
       "hp": 23,
+      "color": "Буланая",
+      "skin": "в яблоко",
+      "stable": "5.4",
+      "img": "./assets/horses/sc1.jpg"
+    },
+
+    
+    {
+      "basePrice": 0,
+      "speed": 10,
+      "jump": 2.75,
+      "hp": 25,
+      "color": "Игреневая",
+      "skin": "пегая",
+      "stable": "1.3",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 11.13,
+      "jump": 3.25,
+      "hp": 24,
       "color": "Игреневая",
       "skin": "пегая",
       "stable": "2.4",
@@ -102,9 +178,9 @@
     },
     {
       "basePrice": 0,
-      "speed": 7.86,
-      "jump": 3.75,
-      "hp": 24,
+      "speed": 10.61,
+      "jump": 3.25,
+      "hp": 22,
       "color": "Игреневая",
       "skin": "пегая",
       "stable": "2.5",
@@ -112,7 +188,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.7,
+      "speed": 9.94,
       "jump": 4,
       "hp": 27,
       "color": "Игреневая",
@@ -122,7 +198,61 @@
     },
     {
       "basePrice": 0,
-      "speed": 7.95,
+      "speed": 11.23,
+      "jump": 3.25,
+      "hp": 20,
+      "color": "Игреневая",
+      "skin": "в яблоко",
+      "stable": "4.4",
+      "img": "./assets/horses/sc1.jpg"
+    },
+
+    
+    {
+      "basePrice": 0,
+      "speed": 8.85,
+      "jump": 2,
+      "hp": 21,
+      "color": "Серая",
+      "skin": "",
+      "stable": "3.6",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 9.62,
+      "jump": 3.25,
+      "hp": 21,
+      "color": "Серая",
+      "skin": "",
+      "stable": "4.2",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 8.37,
+      "jump": 2.5,
+      "hp": 22,
+      "color": "Серая",
+      "skin": "",
+      "stable": "5.6",
+      "img": "./assets/horses/sc1.jpg"
+    },
+
+    
+    {
+      "basePrice": 0,
+      "speed": 9.2,
+      "jump": 2.75,
+      "hp": 23,
+      "color": "Белая",
+      "skin": "в яблоко",
+      "stable": "3.1",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 8.64,
       "jump": 3.5,
       "hp": 23,
       "color": "Белая",
@@ -132,7 +262,7 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.82,
+      "speed": 9.91,
       "jump": 3.25,
       "hp": 20,
       "color": "Белая",
@@ -142,12 +272,22 @@
     },
     {
       "basePrice": 0,
-      "speed": 7.83,
-      "jump": 2.75,
-      "hp": 20,
+      "speed": 9.25,
+      "jump": 3.5,
+      "hp": 22,
       "color": "Белая",
       "skin": "в яблоко",
       "stable": "4.6",
+      "img": "./assets/horses/sc1.jpg"
+    }, 
+    {
+      "basePrice": 0,
+      "speed": 10.2,
+      "jump": 3.75,
+      "hp": 24,
+      "color": "Белая",
+      "skin": "в яблоко",
+      "stable": "5.2",
       "img": "./assets/horses/sc1.jpg"
     }
   ],

@@ -446,6 +446,7 @@ async function prepareSort(){
             sort: [true, false, true, true, true, true],
             filters: [false, false, 'input'],
             filterText: 'Type to filter... ',
+            pageSize: 500
         });
     })
 }

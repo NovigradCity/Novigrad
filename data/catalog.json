@@ -223,7 +223,7 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": 560,
+      "amount": 300,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -245,7 +245,7 @@
     {
       "name": "Цинк",
       "category": "ingot",
-      "amount": 338,
+      "amount": 300,
       "buy": 27,
       "sell": 32,
       "minPercent": 20,
@@ -256,7 +256,7 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": 397,
+      "amount": 426,
       "buy": 35,
       "sell": 45,
       "minPercent": 20,
@@ -289,7 +289,7 @@
     {
       "name": "Свинец",
       "category": "ingot",
-      "amount": 207,
+      "amount": 159,
       "buy": 75,
       "sell": 100,
       "minPercent": 20,
@@ -322,7 +322,7 @@
     {
       "name": "Латунь",
       "category": "ingot",
-      "amount": 92,
+      "amount": 90,
       "buy": 47,
       "sell": 60,
       "minPercent": 20,
@@ -333,7 +333,7 @@
     {
       "name": "Розовое золото",
       "category": "ingot",
-      "amount": 146,
+      "amount": 532,
       "buy": 63,
       "sell": 75,
       "minPercent": 20,
@@ -355,7 +355,7 @@
     {
       "name": "Висмут бронза",
       "category": "ingot",
-      "amount": 50,
+      "amount": 188,
       "buy": 40,
       "sell": 52,
       "minPercent": 20,
@@ -366,7 +366,7 @@
     {
       "name": "Черная бронза",
       "category": "ingot",
-      "amount": 70,
+      "amount": 56,
       "buy": 53,
       "sell": 65,
       "minPercent": 20,
@@ -377,7 +377,7 @@
     {
       "name": "Стерлинг",
       "category": "ingot",
-      "amount": 84,
+      "amount": 61,
       "buy": 55,
       "sell": 68,
       "minPercent": 20,
@@ -388,7 +388,7 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": 52,
+      "amount": 84,
       "buy": 50,
       "sell": 63,
       "minPercent": 20,
@@ -410,7 +410,7 @@
     {
       "name": "Сталь",
       "category": "ingot",
-      "amount": 53,
+      "amount": 48,
       "buy": 80,
       "sell": 95,
       "minPercent": 20,
@@ -421,7 +421,7 @@
     {
       "name": "Черная сталь",
       "category": "ingot",
-      "amount": 24,
+      "amount": 18,
       "buy": 170,
       "sell": 210,
       "minPercent": 20,
@@ -432,7 +432,7 @@
     {
       "name": "Красная сталь",
       "category": "ingot",
-      "amount": 30,
+      "amount": 23,
       "buy": 320,
       "sell": 400,
       "minPercent": 20,
@@ -443,7 +443,7 @@
     {
       "name": "Синяя сталь",
       "category": "ingot",
-      "amount": 32,
+      "amount": 30,
       "buy": 320,
       "sell": 400,
       "minPercent": 20,
@@ -454,7 +454,7 @@
     {
       "name": "Золото",
       "category": "ore",
-      "amount": 14300,
+      "amount": 27700,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -476,7 +476,7 @@
     {
       "name": "Цинк",
       "category": "ore",
-      "amount": 20900,
+      "amount": 27400,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -487,7 +487,7 @@
     {
       "name": "Медь",
       "category": "ore",
-      "amount": 44200,
+      "amount": 95600,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -498,7 +498,7 @@
     {
       "name": "Висмут",
       "category": "ore",
-      "amount": 11900,
+      "amount": 17200,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -509,7 +509,7 @@
     {
       "name": "Никель",
       "category": "ore",
-      "amount": 14400,
+      "amount": 23600,
       "sell": "-",
       "buy": 35,
       "minPercent": 20,
@@ -520,7 +520,7 @@
     {
       "name": "Свинец",
       "category": "ore",
-      "amount": 5100,
+      "amount": 7200,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -531,7 +531,7 @@
     {
       "name": "Серебро",
       "category": "ore",
-      "amount": 28600,
+      "amount": 30100,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -553,7 +553,7 @@
     {
       "name": "Железо (Гематит, Лимонит, Магнитит)",
       "category": "ore",
-      "amount": 78900,
+      "amount": 112200,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -756,7 +756,7 @@
     {
       "name": "Кожа",
       "category": "other",
-      "amount": 999,
+      "amount": 1287,
       "sell": 60,
       "buy": 40,
       "minPercent": 20,
