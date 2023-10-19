@@ -106,9 +106,9 @@
     
     {
       "basePrice": 0,
-      "speed": 7.9,
-      "jump": 1.75,
-      "hp": 22,
+      "speed": 9.29,
+      "jump": 2.5,
+      "hp": 20,
       "color": "Буланая",
       "skin": "в яблоко",
       "stable": "1.4",
