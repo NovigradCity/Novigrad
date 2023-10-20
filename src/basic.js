@@ -375,7 +375,7 @@ async function loadHorses() {
         let html = `
         <div class="col-xs-12 col-sm-6 col-lg-4 mb-2" style="${sortStyle}">
             <div class="card">
-                <img src="./assets/horses/${name}.jpg" onerror="this.src='./assets/horses/sc1.jpg'" class="card-img-top" alt="${name}">
+                <img src="./assets/horses/${name} лошадь-min.png" onerror="this.src='./assets/horses/sc1.jpg'" class="card-img-top" alt="${name}">
                 <div class="card-body">
                   <h5 class="card-title">${name} #${index+1}</h5>
                   <p class="card-text mb-0">
