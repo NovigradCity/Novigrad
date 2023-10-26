@@ -454,7 +454,7 @@
     {
       "name": "Золото",
       "category": "ore",
-      "amount": 27700,
+      "amount": 60000,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -465,7 +465,7 @@
     {
       "name": "Олово",
       "category": "ore",
-      "amount": 2000,
+      "amount": 25500,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -476,7 +476,7 @@
     {
       "name": "Цинк",
       "category": "ore",
-      "amount": 27400,
+      "amount": 31500,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -487,7 +487,7 @@
     {
       "name": "Медь",
       "category": "ore",
-      "amount": 95600,
+      "amount": 60300,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -498,7 +498,7 @@
     {
       "name": "Висмут",
       "category": "ore",
-      "amount": 17200,
+      "amount": 21000,
       "sell": "-",
       "buy": 20,
       "minPercent": 20,
@@ -509,7 +509,7 @@
     {
       "name": "Никель",
       "category": "ore",
-      "amount": 23600,
+      "amount": 17000,
       "sell": "-",
       "buy": 35,
       "minPercent": 20,
@@ -520,7 +520,7 @@
     {
       "name": "Свинец",
       "category": "ore",
-      "amount": 7200,
+      "amount": 13500,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -531,7 +531,7 @@
     {
       "name": "Серебро",
       "category": "ore",
-      "amount": 30100,
+      "amount": 17500,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -553,7 +553,7 @@
     {
       "name": "Железо (Гематит, Лимонит, Магнитит)",
       "category": "ore",
-      "amount": 112200,
+      "amount": 14000,
       "sell": "-",
       "buy": 30,
       "minPercent": 20,
@@ -564,7 +564,7 @@
     {
       "name": "Коксовый уголь",
       "category": "other",
-      "amount": 8967,
+      "amount": 9000,
       "sell": 4,
       "buy": 0,
       "logic": {
@@ -756,7 +756,7 @@
     {
       "name": "Кожа",
       "category": "other",
-      "amount": 1162,
+      "amount": 1223,
       "sell": 60,
       "buy": 40,
       "minPercent": 20,
