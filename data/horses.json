@@ -136,12 +136,12 @@
     },
     {
       "basePrice": 0,
-      "speed": 9,
+      "speed": 9.59,
       "jump": 2.75,
-      "hp": 24,
+      "hp": 22,
       "color": "Буланая",
       "skin": "чубарая",
-      "stable": "4.4",
+      "stable": "4.5",
       "img": "./assets/horses/sc1.jpg"
     },
     {
