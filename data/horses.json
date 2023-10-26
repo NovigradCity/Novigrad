@@ -84,9 +84,9 @@
     },
     {
       "basePrice": 0,
-      "speed": 10.68,
-      "jump": 3.25,
-      "hp": 20,
+      "speed": 10.36,
+      "jump": 3.75,
+      "hp": 22,
       "color": "Светло-гнедая",
       "skin": "пегая",
       "stable": "4.3",
@@ -210,6 +210,16 @@
     
     {
       "basePrice": 0,
+      "speed": 10.82,
+      "jump": 2.5,
+      "hp": 19,
+      "color": "Серая",
+      "skin": "",
+      "stable": "2.2",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
       "speed": 8.85,
       "jump": 2,
       "hp": 21,
@@ -226,6 +236,16 @@
       "color": "Серая",
       "skin": "",
       "stable": "4.2",
+      "img": "./assets/horses/sc1.jpg"
+    },
+    {
+      "basePrice": 0,
+      "speed": 10.18,
+      "jump": 3.75,
+      "hp": 22,
+      "color": "Серая",
+      "skin": "",
+      "stable": "5.1",
       "img": "./assets/horses/sc1.jpg"
     },
     {
