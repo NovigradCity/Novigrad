@@ -223,7 +223,7 @@
     {
       "name": "Золото",
       "category": "ingot",
-      "amount": 432,
+      "amount": 441,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -256,7 +256,7 @@
     {
       "name": "Медь",
       "category": "ingot",
-      "amount": 426,
+      "amount": 202,
       "buy": 35,
       "sell": 45,
       "minPercent": 20,
@@ -278,7 +278,7 @@
     {
       "name": "Никель",
       "category": "ingot",
-      "amount": 322,
+      "amount": 298,
       "buy": 52,
       "sell": 70,
       "minPercent": 20,
@@ -300,7 +300,7 @@
     {
       "name": "Серебро",
       "category": "ingot",
-      "amount": 440,
+      "amount": 443,
       "buy": 45,
       "sell": 60,
       "minPercent": 20,
@@ -322,7 +322,7 @@
     {
       "name": "Латунь",
       "category": "ingot",
-      "amount": 90,
+      "amount": 0,
       "buy": 47,
       "sell": 60,
       "minPercent": 20,
@@ -333,7 +333,7 @@
     {
       "name": "Розовое золото",
       "category": "ingot",
-      "amount": 532,
+      "amount": 301,
       "buy": 63,
       "sell": 75,
       "minPercent": 20,
@@ -355,7 +355,7 @@
     {
       "name": "Висмут бронза",
       "category": "ingot",
-      "amount": 188,
+      "amount": 342,
       "buy": 40,
       "sell": 52,
       "minPercent": 20,
@@ -366,7 +366,7 @@
     {
       "name": "Черная бронза",
       "category": "ingot",
-      "amount": 248,
+      "amount": 170,
       "buy": 53,
       "sell": 65,
       "minPercent": 20,
@@ -377,7 +377,7 @@
     {
       "name": "Стерлинг",
       "category": "ingot",
-      "amount": 61,
+      "amount": 6,
       "buy": 55,
       "sell": 68,
       "minPercent": 20,
@@ -388,7 +388,7 @@
     {
       "name": "Кованное железо",
       "category": "ingot",
-      "amount": 84,
+      "amount": 89,
       "buy": 50,
       "sell": 63,
       "minPercent": 20,
@@ -399,7 +399,7 @@
     {
       "name": "Чугун",
       "category": "ingot",
-      "amount": 243,
+      "amount": 257,
       "buy": 70,
       "sell": 85,
       "minPercent": 20,
@@ -410,7 +410,7 @@
     {
       "name": "Сталь",
       "category": "ingot",
-      "amount": 48,
+      "amount": 0,
       "buy": 80,
       "sell": 95,
       "minPercent": 20,
@@ -421,7 +421,7 @@
     {
       "name": "Черная сталь",
       "category": "ingot",
-      "amount": 18,
+      "amount": 117,
       "buy": 170,
       "sell": 210,
       "minPercent": 20,
@@ -432,7 +432,7 @@
     {
       "name": "Красная сталь",
       "category": "ingot",
-      "amount": 23,
+      "amount": 22,
       "buy": 320,
       "sell": 400,
       "minPercent": 20,
@@ -443,7 +443,7 @@
     {
       "name": "Синяя сталь",
       "category": "ingot",
-      "amount": 30,
+      "amount": 15,
       "buy": 320,
       "sell": 400,
       "minPercent": 20,
