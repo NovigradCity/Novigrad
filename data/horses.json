@@ -64,11 +64,11 @@
     },
     {
       "basePrice": 0,
-      "speed": 10.08,
-      "jump": 3.25,
-      "hp": 23,
+      "speed": 10.7,
+      "jump": 3.5,
+      "hp": 21,
       "color": "Светло-гнедая",
-      "skin": "",
+      "skin": "пегая",
       "stable": "2.1",
       "img": "./assets/horses/sc1.jpg"
     },
@@ -78,7 +78,7 @@
       "jump": 3.25,
       "hp": 19,
       "color": "Светло-гнедая",
-      "skin": "",
+      "skin": "пегая",
       "stable": "3.4",
       "img": "./assets/horses/sc1.jpg"
     },
@@ -106,11 +106,11 @@
     
     {
       "basePrice": 0,
-      "speed": 9.29,
-      "jump": 2.5,
-      "hp": 20,
+      "speed": 9.16,
+      "jump": 2.75,
+      "hp": 23,
       "color": "Буланая",
-      "skin": "в яблоко",
+      "skin": "чубарая",
       "stable": "1.4",
       "img": "./assets/horses/sc1.jpg"
     }, 
@@ -130,7 +130,7 @@
       "jump": 2.25,
       "hp": 20,
       "color": "Буланая",
-      "skin": "в яблоко",
+      "skin": "чубарая",
       "stable": "3.5",
       "img": "./assets/horses/sc1.jpg"
     },
@@ -172,7 +172,7 @@
       "jump": 3.25,
       "hp": 24,
       "color": "Игреневая",
-      "skin": "пегая",
+      "skin": "в яблоко",
       "stable": "2.4",
       "img": "./assets/horses/sc1.jpg"
     },
@@ -182,7 +182,7 @@
       "jump": 3.25,
       "hp": 22,
       "color": "Игреневая",
-      "skin": "пегая",
+      "skin": "в яблоко",
       "stable": "2.5",
       "img": "./assets/horses/sc1.jpg"
     },
@@ -224,7 +224,7 @@
       "jump": 2.75,
       "hp": 20,
       "color": "Серая",
-      "skin": "",
+      "skin": "чубарая",
       "stable": "3.6",
       "img": "./assets/horses/sc1.jpg"
     },
