@@ -12,9 +12,9 @@
     },
     {
       "basePrice": 0,
-      "speed": 8.47,
-      "jump": 2.25,
-      "hp": 25,
+      "speed": 8.71,
+      "jump": 2.75,
+      "hp": 21,
       "color": "Тёмно-гнедая",
       "skin": "",
       "stable": "1.2",
