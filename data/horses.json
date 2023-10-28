@@ -262,11 +262,11 @@
     
     {
       "basePrice": 0,
-      "speed": 9.2,
+      "speed": 9.8,
       "jump": 2.75,
-      "hp": 23,
+      "hp": 22,
       "color": "Белая",
-      "skin": "в яблоко",
+      "skin": "",
       "stable": "3.1",
       "img": "./assets/horses/sc1.jpg"
     },
